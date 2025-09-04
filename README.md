@@ -19,7 +19,7 @@ rag.py was used for experimental purposes for chunking and querying purposes
 - I used a few sample queries to test out which interviews/interviewee ID's would be returned 
 
 routing.py was used to simulate dynamic matching of users (previous interviewees) and incoming queries in realtime.
-- Basically reused rag.py code and simulated real-time incoming sample queries to be processed by the system
+- Basically uses the contents of rag.py and simulates real-time incoming sample queries to be processed by the system
 - created several dummy agent interviewers with specializations (allowed agent duplications as well so there was no need for a queue)
 - system paired agent interviewers with interviewees/users based on topic/specialization of the query
 
@@ -52,6 +52,7 @@ docker run -p 6333:6333 qdrant/qdrant
 ```
 Then you are ready to run 
 ```
+python rag.py
 python router.py
 ```
 
