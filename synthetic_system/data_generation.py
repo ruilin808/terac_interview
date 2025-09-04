@@ -504,6 +504,10 @@ CORE QUESTION AREAS TO EXPLORE:
 - Specific suggestions for product improvements
 - What would make them switch to a competitor
 
+TRANSCRIPT RULES:
+- NO UNICODE is to be in the transcript
+- DO not generate * in any part of the transcript
+
 INSTRUCTIONS: Create a realistic interview dialogue that captures the customer's experience authentically. The interviewer should follow up on specific details mentioned in the review and explore the broader context of the customer's needs and satisfaction. Make sure to use the specified names ({interviewer_name} and {interviewee_name}) consistently.
 
 Format as natural dialogue with speaker names, no special formatting needed."""
@@ -536,12 +540,21 @@ Format as natural dialogue with speaker names, no special formatting needed."""
             if not line:
                 continue
             
+            # Skip obvious metadata/header lines that aren't dialogue
+            if any(keyword in line.lower() for keyword in ['interviewer', 'interviewee', 'date', 'corporate representative', 'customer']):
+                continue
+                
             # Check if line starts with a speaker name
             if ':' in line:
                 potential_speaker = line.split(':')[0].strip()
-                if len(potential_speaker.split()) <= 2:  # Speaker names should be 1-2 words
-                    # Save previous turn if exists
-                    if current_speaker and current_text:
+                
+                # Clean up speaker name - remove asterisks and other formatting
+                potential_speaker = potential_speaker.replace('*', '').strip()
+                
+                # Check if this looks like a speaker name (1-2 words, not too long)
+                if len(potential_speaker.split()) <= 2 and len(potential_speaker) < 20:
+                    # Save previous turn if exists and has meaningful content
+                    if current_speaker and current_text and len(current_text.strip()) > 5:
                         turns.append({
                             "turnId": turn_id,
                             "speaker": current_speaker,
@@ -554,13 +567,15 @@ Format as natural dialogue with speaker names, no special formatting needed."""
                     current_text = line.split(':', 1)[1].strip() if ':' in line else ""
                 else:
                     # This line is continuation of current speaker
-                    current_text += " " + line
+                    if current_text:
+                        current_text += " " + line
             else:
                 # Continuation of current speaker
-                current_text += " " + line
+                if current_text:
+                    current_text += " " + line
         
-        # Add the last turn
-        if current_speaker and current_text:
+        # Add the last turn if it has meaningful content
+        if current_speaker and current_text and len(current_text.strip()) > 5:
             turns.append({
                 "turnId": turn_id,
                 "speaker": current_speaker,
