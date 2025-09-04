@@ -1,0 +1,47 @@
+{
+  "interviewee_id": "INT_036",
+  "personal_info": {
+    "name": "Timothy",
+    "age": 35,
+    "age_range": "35-39",
+    "gender": "male",
+    "race_ethnicity": [
+      "white",
+      "black"
+    ],
+    "education_level": "high_school",
+    "employment_status": "part_time",
+    "occupation": "doctor",
+    "industry": "healthcare",
+    "income_range": "$150k+",
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "country": "US",
+      "region": "midwest"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_036_20240821",
+      "date": "2024-08-21",
+      "start_time": "2024-08-21T11:30:00Z",
+      "end_time": "2024-08-21T18:22:00Z",
+      "duration_minutes": 48,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_17",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8493943929420569,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_036_20240821.json",
+      "compensation_amount": 25
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "social_media",
+    "total_interviews_completed": 1,
+    "total_compensation": 25,
+    "hourly_compensation_rate": 31.25
+  }
+}

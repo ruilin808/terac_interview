@@ -1,0 +1,46 @@
+{
+  "interviewee_id": "INT_022",
+  "personal_info": {
+    "name": "Parker",
+    "age": 39,
+    "age_range": "35-39",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "native_american"
+    ],
+    "education_level": "master's degree",
+    "employment_status": "full_time",
+    "occupation": "sales associate",
+    "industry": "retail",
+    "income_range": "$150k+",
+    "location": {
+      "city": "Charlotte",
+      "state": "NC",
+      "country": "US",
+      "region": "southeast"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_022_20240708",
+      "date": "2024-07-08",
+      "start_time": "2024-07-08T13:30:00Z",
+      "end_time": "2024-07-08T14:43:00Z",
+      "duration_minutes": 77,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_12",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7676714512080733,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_022_20240708.json",
+      "compensation_amount": 100
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "social_media",
+    "total_interviews_completed": 1,
+    "total_compensation": 100,
+    "hourly_compensation_rate": 77.92
+  }
+}

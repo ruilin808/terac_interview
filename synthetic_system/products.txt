@@ -1,0 +1,604 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "COWIN E7 Active Noise Cancelling Headphones Bluetooth Headphones",
+      "link": "https://www.amazon.com/dp/B019U00D7K",
+      "description": "Over-ear wireless headphones designed to reduce ambient noise for immersive listening."
+    },
+    {
+      "id": 2,
+      "product_name": "iRobot Roomba 694 Robot Vacuum-Wi-Fi Connectivity",
+      "link": "https://www.amazon.com/dp/B08SP5GY2B",
+      "description": "An automated vacuum cleaner that navigates and cleans your floors on its own."
+    },
+    {
+      "id": 3,
+      "product_name": "BalanceFrom GoYoga All-Purpose 1/2-Inch Extra Thick High Density Anti-Tear Exercise Yoga Mat",
+      "link": "https://www.amazon.com/dp/B00FO9S4M4",
+      "description": "A cushioned mat providing a non-slip surface for yoga, pilates, and floor exercises."
+    },
+    {
+      "id": 4,
+      "product_name": "COSORI Pro II Air Fryer Oven Combo, 5.8QT",
+      "link": "https://www.amazon.com/dp/B0B1G5M31V",
+      "description": "A countertop appliance that cooks food by circulating hot air, creating a crispy texture with less oil."
+    },
+    {
+      "id": 5,
+      "product_name": "Philips Sonicare 4100 Power Toothbrush, Rechargeable Electric Toothbrush",
+      "link": "https://www.amazon.com/dp/B07NKV68D4",
+      "description": "An electric toothbrush that uses sonic vibrations for a deep and effective clean."
+    },
+    {
+      "id": 6,
+      "product_name": "Fitbit Versa 4 Fitness Smartwatch with Daily Readiness",
+      "link": "https://www.amazon.com/dp/B0B4M2T46D",
+      "description": "A wearable device that tracks fitness metrics, heart rate, sleep, and displays smartphone notifications."
+    },
+    {
+      "id": 7,
+      "product_name": "Bodum Brazil French Press Coffee and Tea Maker, 34 Ounce",
+      "link": "https://www.amazon.com/dp/B000KEM4TQ",
+      "description": "A manual coffee maker that steeps grounds in hot water before pressing them to the bottom."
+    },
+    {
+      "id": 8,
+      "product_name": "YnM Weighted Blanket — Heavy 100% Oeko-Tex Certified Cotton Material",
+      "link": "https://www.amazon.com/dp/B073H5Y151",
+      "description": "A heavy blanket designed to provide gentle pressure, promoting relaxation and better sleep."
+    },
+    {
+      "id": 9,
+      "product_name": "Buffalo Games - Cinque Terre - 1000 Piece Jigsaw Puzzle",
+      "link": "https://www.amazon.com/dp/B073W8DQR1",
+      "description": "A challenging and entertaining puzzle featuring a scenic image of the Italian coast."
+    },
+    {
+      "id": 10,
+      "product_name": "Anker Soundcore 2 Portable Bluetooth Speaker with 12W Stereo Sound",
+      "link": "https://www.amazon.com/dp/B016XTADG2",
+      "description": "A compact, wireless speaker that delivers high-quality audio for on-the-go listening."
+    },
+    {
+      "id": 11,
+      "product_name": "TruSkin Vitamin C Serum for Face with Hyaluronic Acid & Vitamin E",
+      "link": "https://www.amazon.com/dp/B01M4MCUAF",
+      "description": "A topical facial serum designed to brighten skin, reduce dark spots, and improve collagen production."
+    },
+    {
+      "id": 12,
+      "product_name": "Fit Simplify Resistance Loop Exercise Bands with Instruction Guide",
+      "link": "https://www.amazon.com/dp/B01AVDVHTI",
+      "description": "A set of elastic bands of varying resistance levels used for strength training and physical therapy."
+    },
+    {
+      "id": 13,
+      "product_name": "TIJN Blue Light Blocking Glasses Square Nerd Eyeglasses Frame",
+      "link": "https://www.amazon.com/dp/B078X5844R",
+      "description": "Non-prescription glasses designed to filter out blue light from digital screens to reduce eye strain."
+    },
+    {
+      "id": 14,
+      "product_name": "Gabrylly Ergonomic Mesh Office Chair, High Back Desk Chair",
+      "link": "https://www.amazon.com/dp/B07Y8BXBX8",
+      "description": "A supportive and adjustable chair designed for comfort during long hours of office work."
+    },
+    {
+      "id": 15,
+      "product_name": "AeroGarden Harvest - Indoor Garden with LED Grow Lights",
+      "link": "https://www.amazon.com/dp/B0175443QA",
+      "description": "A soil-free indoor gardening system that uses water and LED lights to grow herbs and vegetables."
+    },
+    {
+      "id": 16,
+      "product_name": "DEWALT 20V Max Cordless Drill / Driver Kit, Compact",
+      "link": "https://www.amazon.com/dp/B01K31Q20A",
+      "description": "A battery-powered hand drill for various home improvement and construction tasks."
+    },
+    {
+      "id": 17,
+      "product_name": "Hydro Flask Standard Mouth Bottle with Flex Cap",
+      "link": "https://www.amazon.com/dp/B0B9BG745T",
+      "description": "A vacuum-insulated stainless steel bottle that keeps drinks cold for up to 24 hours or hot for 12."
+    },
+    {
+      "id": 18,
+      "product_name": "Etekcity Food Kitchen Scale, Digital Grams and Ounces for Weight Loss",
+      "link": "https://www.amazon.com/dp/B0113UZJE2",
+      "description": "A precise digital scale for measuring food ingredients by weight for cooking and baking."
+    },
+    {
+      "id": 19,
+      "product_name": "UBeesize 10\" Selfie Ring Light with 50\" Extendable Tripod Stand",
+      "link": "https://www.amazon.com/dp/B07N2W25PS",
+      "description": "A circular light that provides even illumination for photography, vlogging, and video calls."
+    },
+    {
+      "id": 20,
+      "product_name": "Bedsure 100% Mulberry Silk Pillowcase for Hair and Skin Health",
+      "link": "https://www.amazon.com/dp/B085L617R2",
+      "description": "A smooth pillowcase made from silk to help reduce friction on hair and skin during sleep."
+    },
+    {
+      "id": 21,
+      "product_name": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones by James Clear",
+      "link": "https://www.amazon.com/dp/0735211299",
+      "description": "A best-selling book that offers a practical framework for improving every day."
+    },
+    {
+      "id": 22,
+      "product_name": "DELOMO Pet Grooming Glove - Gentle Deshedding Brush Glove",
+      "link": "https://www.amazon.com/dp/B01N9KSITZ",
+      "description": "A pair of gloves with silicone tips used to groom pets and remove loose fur."
+    },
+    {
+      "id": 23,
+      "product_name": "Greener Chef Extra Large Bamboo Cutting Board for Kitchen",
+      "link": "https://www.amazon.com/dp/B01M3R52L3",
+      "description": "A durable and eco-friendly cutting surface made from natural bamboo wood."
+    },
+    {
+      "id": 24,
+      "product_name": "Amazon Basics 21-Inch Hardside Spinner, Carry-On",
+      "link": "https://www.amazon.com/dp/B071G3M4X9",
+      "description": "A durable, hard-shell suitcase with multi-directional wheels designed for carry-on travel."
+    },
+    {
+      "id": 25,
+      "product_name": "Mueller Ultra Kettle: Model No. M99S 1500W Electric Kettle with SpeedBoil Tech",
+      "link": "https://www.amazon.com/dp/B07559G115",
+      "description": "An electric appliance that rapidly boils water for tea, coffee, or other hot beverages."
+    },
+    {
+      "id": 26,
+      "product_name": "Beetles Gel Nail Polish Kit with LED Lamp",
+      "link": "https://www.amazon.com/dp/B08616Y5LR",
+      "description": "A starter kit for at-home gel manicures, including polish, a UV/LED curing lamp, and tools."
+    },
+    {
+      "id": 27,
+      "product_name": "CHGeek 15W Qi Wireless Car Charger Auto-Clamping Car Mount",
+      "link": "https://www.amazon.com/dp/B07X43FSL6",
+      "description": "A car phone holder that also wirelessly charges compatible smartphones while you drive."
+    },
+    {
+      "id": 28,
+      "product_name": "Rocketbook Smart Reusable Notebook - Dotted Grid Eco-Friendly Notebook",
+      "link": "https://www.amazon.com/dp/B06ZXWVZ3X",
+      "description": "A notebook that allows you to scan your notes to the cloud and then wipe the pages clean to reuse."
+    },
+    {
+      "id": 29,
+      "product_name": "Lodge Pre-Seasoned 10.25 Inch Cast Iron Skillet with Assist Handle",
+      "link": "https://www.amazon.com/dp/B00006JSUA",
+      "description": "A heavy-duty, pre-seasoned skillet known for its heat retention and even cooking."
+    },
+    {
+      "id": 30,
+      "product_name": "TriggerPoint GRID Foam Roller for Exercise, Deep Tissue Massage and Muscle Recovery",
+      "link": "https://www.amazon.com/dp/B0040EGNIU",
+      "description": "A cylindrical tool used for self-massage to release muscle tightness and improve flexibility."
+    },
+    {
+      "id": 31,
+      "product_name": "Anker PowerCore 10000 Portable Charger, Ultra-Compact Power Bank",
+      "link": "https://www.amazon.com/dp/B0194WDVHI",
+      "description": "A small, portable battery pack used for recharging electronic devices like smartphones on the go."
+    },
+    {
+      "id": 32,
+      "product_name": "Embark Dog DNA Test | Breed & Health Kit",
+      "link": "https://www.amazon.com/dp/B01EINB33C",
+      "description": "A mail-in kit that analyzes your dog's saliva to determine its breed mix and screen for genetic health risks."
+    },
+    {
+      "id": 33,
+      "product_name": "OXO Good Grips 32 Ounce Cold Brew Coffee Maker",
+      "link": "https://www.amazon.com/dp/B073SS9T5X",
+      "description": "A simple system for steeping coffee grounds in cold water to create smooth, low-acid coffee concentrate."
+    },
+    {
+      "id": 34,
+      "product_name": "Wekapo Sandproof Beach Blanket, Extra Large Waterproof Picnic Blanket",
+      "link": "https://www.amazon.com/dp/B08ZCNY152",
+      "description": "A large, durable blanket with a waterproof backing, ideal for picnics, beach trips, and outdoor events."
+    },
+    {
+      "id": 35,
+      "product_name": "Viking Revolution Beard Care Kit for Men with Beard Oil, Balm, Brush & Comb",
+      "link": "https://www.amazon.com/dp/B079ZZJDJB",
+      "description": "A complete set of products for maintaining a healthy and well-groomed beard."
+    },
+    {
+      "id": 36,
+      "product_name": "LEGO Architecture Skylines: London Building Kit (21034)",
+      "link": "https://www.amazon.com/dp/B01J41F4R6",
+      "description": "A LEGO set that allows you to build a detailed model of the London skyline."
+    },
+    {
+      "id": 37,
+      "product_name": "ASAKUKI 500ml Premium, Essential Oil Diffuser with Remote Control",
+      "link": "https://www.amazon.com/dp/B071D58ZY5",
+      "description": "A device that disperses essential oils into the air as a fine mist for aromatherapy and humidifying."
+    },
+    {
+      "id": 38,
+      "product_name": "Anova Culinary Sous Vide Precision Cooker Nano",
+      "link": "https://www.amazon.com/dp/B07C7PW3PC",
+      "description": "An immersion circulator that cooks food in a temperature-controlled water bath for perfect results."
+    },
+    {
+      "id": 39,
+      "product_name": "Blink Mini – Compact indoor plug-in smart security camera",
+      "link": "https://www.amazon.com/dp/B07X6C9RMF",
+      "description": "A small, Wi-Fi-connected camera that lets you monitor the inside of your home from your phone."
+    },
+    {
+      "id": 40,
+      "product_name": "Amazon Basics Silicone, Non-Stick, Food Safe Baking Mat - Pack of 2",
+      "link": "https://www.amazon.com/dp/B0725GYNG6",
+      "description": "Reusable, non-stick sheets that replace parchment paper for baking."
+    },
+    {
+      "id": 41,
+      "product_name": "Bowflex SelectTech 552 Adjustable Dumbbells",
+      "link": "https://www.amazon.com/dp/B001ARYU58",
+      "description": "A pair of dumbbells where the weight can be easily adjusted with a dial, replacing a full rack of weights."
+    },
+    {
+      "id": 42,
+      "product_name": "MEEDEN 48 Colors Watercolor Paint Set in Tin Box",
+      "link": "https://www.amazon.com/dp/B08V8NBK8N",
+      "description": "A portable set of watercolor paints, perfect for artists of all levels."
+    },
+    {
+      "id": 43,
+      "product_name": "Logitech G502 HERO High Performance Wired Gaming Mouse",
+      "link": "https://www.amazon.com/dp/B07GBZ4Q68",
+      "description": "A high-precision mouse with customizable buttons designed specifically for video gaming."
+    },
+    {
+      "id": 44,
+      "product_name": "NICETOWN Thermal Insulated Grommet Blackout Curtains for Bedroom",
+      "link": "https://www.amazon.com/dp/B01G5A34AY",
+      "description": "Heavy drapes designed to block out sunlight and provide thermal insulation."
+    },
+    {
+      "id": 45,
+      "product_name": "Jade Leaf Organic Ceremonial Grade Matcha Green Tea Powder",
+      "link": "https://www.amazon.com/dp/B00PFD2LK0",
+      "description": "A finely ground powder of specially grown and processed green tea leaves."
+    },
+    {
+      "id": 46,
+      "product_name": "ThermoPro TP03 Digital Instant Read Meat Thermometer",
+      "link": "https://www.amazon.com/dp/B014DAVHSQ",
+      "description": "A kitchen gadget with a probe for quickly and accurately checking the internal temperature of food."
+    },
+    {
+      "id": 47,
+      "product_name": "trtl Pillow - Scientifically Proven Super Soft Neck Support Travel Pillow",
+      "link": "https://www.amazon.com/dp/B00LB7REFK",
+      "description": "An innovative travel pillow that provides ergonomic support to keep your head in a comfortable position."
+    },
+    {
+      "id": 48,
+      "product_name": "Anker USB C Hub, 7-in-1 USB C Adapter with 4K HDMI",
+      "link": "https://www.amazon.com/dp/B07ZVKTP53",
+      "description": "A device that expands a single USB-C port into multiple ports like HDMI, USB-A, and SD card readers."
+    },
+    {
+      "id": 49,
+      "product_name": "Philips SmartSleep Wake-up Light, Colored Sunrise and Sunset Simulation",
+      "link": "https://www.amazon.com/dp/B0093162RM",
+      "description": "An alarm clock that simulates a natural sunrise to help you wake up more gradually."
+    },
+    {
+      "id": 50,
+      "product_name": "Earth Pak -Waterproof Dry Bag with Shoulder Strap",
+      "link": "https://www.amazon.com/dp/B074V39M6N",
+      "description": "A roll-top sack that keeps your belongings dry during water activities like kayaking or boating."
+    },
+    {
+      "id": 51,
+      "product_name": "PETLIBRO Automatic Cat Feeder, Timed Cat Feeder with Desiccant Bag",
+      "link": "https://www.amazon.com/dp/B0854261FN",
+      "description": "A programmable pet feeder that dispenses specific portions of food at set times."
+    },
+    {
+      "id": 52,
+      "product_name": "Modern Innovations 16 Inch Stainless Steel Magnetic Knife Bar",
+      "link": "https://www.amazon.com/dp/B01FRQEN6A",
+      "description": "A wall-mounted magnetic strip for storing knives and other metal utensils, saving counter space."
+    },
+    {
+      "id": 53,
+      "product_name": "Zulay Original Milk Frother Handheld Foam Maker for Lattes",
+      "link": "https://www.amazon.com/dp/B074ZL35Y6",
+      "description": "A small, battery-operated whisk that creates rich, creamy froth for coffee drinks."
+    },
+    {
+      "id": 54,
+      "product_name": "Utopia Kitchen Stainless Steel Compost Bin for Kitchen Countertop",
+      "link": "https://www.amazon.com/dp/B015DR7S7K",
+      "description": "A compact indoor bin for collecting food scraps before they are transferred to an outdoor compost pile."
+    },
+    {
+      "id": 55,
+      "product_name": "eLinkSmart Fingerprint Padlock, App-Free Biometric Padlock",
+      "link": "https://www.amazon.com/dp/B08V8R892D",
+      "description": "A keyless lock that uses your fingerprint for quick and secure access."
+    },
+    {
+      "id": 56,
+      "product_name": "Stasher 100% Silicone Reusable Food Bag, Sandwich Size",
+      "link": "https://www.amazon.com/dp/B01DZQT9MA",
+      "description": "An eco-friendly, platinum silicone bag for storing food, which is a reusable alternative to plastic bags."
+    },
+    {
+      "id": 57,
+      "product_name": "Drive Auto Car Trunk Organizer - Storage with Straps",
+      "link": "https://www.amazon.com/dp/B01F9B23AC",
+      "description": "A collapsible storage container designed to keep items in your car trunk neat and secure."
+    },
+    {
+      "id": 58,
+      "product_name": "Garnier SkinActive Micellar Cleansing Water For All Skin Types",
+      "link": "https://www.amazon.com/dp/B017PCGABI",
+      "description": "A gentle facial cleanser that removes makeup and impurities without needing to be rinsed off."
+    },
+    {
+      "id": 59,
+      "product_name": "PILPOC theFube Fidget Cube with Exclusive Protective Case",
+      "link": "https://www.amazon.com/dp/B06XBLS6S4",
+      "description": "A small handheld toy with various buttons, switches, and dials to help with focus and stress relief."
+    },
+    {
+      "id": 60,
+      "product_name": "HumanCentric Vertical Laptop Stand for Desks",
+      "link": "https://www.amazon.com/dp/B079W63L9N",
+      "description": "A stand that holds a closed laptop vertically to save desk space when using an external monitor."
+    },
+    {
+      "id": 61,
+      "product_name": "Hario V60 Ceramic Coffee Dripper",
+      "link": "https://www.amazon.com/dp/B000P4D5F0",
+      "description": "A cone-shaped device used for making manual pour-over coffee, known for its clean flavor extraction."
+    },
+    {
+      "id": 62,
+      "product_name": "Mighty Patch Original from Hero Cosmetics - Hydrocolloid Acne Pimple Patch",
+      "link": "https://www.amazon.com/dp/B074PVTPBW",
+      "description": "Small, adhesive patches that absorb fluid from pimples to help them heal faster."
+    },
+    {
+      "id": 63,
+      "product_name": "Keychron K2 Wireless Bluetooth/USB Wired Gaming Mechanical Keyboard",
+      "link": "https://www.amazon.com/dp/B08B5W4YV4",
+      "description": "A keyboard with physical switches under each key, offering a tactile and responsive typing experience."
+    },
+    {
+      "id": 64,
+      "product_name": "TheFitLife Flexible and Expandable Garden Hose",
+      "link": "https://www.amazon.com/dp/B07S7F9XGJ",
+      "description": "A lightweight hose that expands with water pressure and shrinks back down for easy storage."
+    },
+    {
+      "id": 65,
+      "product_name": "Shacke Pak - 5 Set Packing Cubes - Travel Organizers",
+      "link": "https://www.amazon.com/dp/B014VBH7O8",
+      "description": "Small bags used to compartmentalize clothes and items within a suitcase for better organization."
+    },
+    {
+      "id": 66,
+      "product_name": "Oster Cordless Electric Wine Bottle Opener with Foil Cutter",
+      "link": "https://www.amazon.com/dp/B003Y3B2F4",
+      "description": "A rechargeable device that removes corks from wine bottles with the simple push of a button."
+    },
+    {
+      "id": 67,
+      "product_name": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking by Samin Nosrat",
+      "link": "https://www.amazon.com/dp/1476753830",
+      "description": "A highly acclaimed cookbook that teaches the fundamental principles of cooking."
+    },
+    {
+      "id": 68,
+      "product_name": "HoMedics White Noise Sound Machine | Portable Sleep Therapy",
+      "link": "https://www.amazon.com/dp/B00A2JBMRE",
+      "description": "A device that produces calming sounds like rain or static to mask disruptive noises and aid sleep."
+    },
+    {
+      "id": 69,
+      "product_name": "PUREPLUS Car Air Freshener, Air Purifier with HEPA Filter",
+      "link": "https://www.amazon.com/dp/B09Q2X8R4L",
+      "description": "A compact device that plugs into your car to filter out allergens, dust, and odors from the air."
+    },
+    {
+      "id": 70,
+      "product_name": "VIVO Black Height Adjustable 32 inch Standing Desk Converter",
+      "link": "https://www.amazon.com/dp/B075S13W75",
+      "description": "A riser that sits on top of an existing desk, allowing you to easily switch between sitting and standing."
+    },
+    {
+      "id": 71,
+      "product_name": "Kootek Camping Hammock Double & Single Portable Hammocks with Tree Straps",
+      "link": "https://www.amazon.com/dp/B00V0T0O8S",
+      "description": "A lightweight, portable sling made of fabric, used for sleeping or relaxing outdoors."
+    },
+    {
+      "id": 72,
+      "product_name": "Govee Smart LED Strip Lights, 16.4ft WiFi LED Lights",
+      "link": "https://www.amazon.com/dp/B08149FMTG",
+      "description": "A flexible strip of color-changing lights that can be controlled via a remote or smartphone app."
+    },
+    {
+      "id": 73,
+      "product_name": "Unwasted Silicone Stretch Lids (12-Pack) - Reusable Food Covers",
+      "link": "https://www.amazon.com/dp/B07R9V7K16",
+      "description": "Flexible silicone lids of various sizes that create an airtight seal on bowls, containers, and jars."
+    },
+    {
+      "id": 74,
+      "product_name": "Amazon Basics Cat Scratching Post and Hammock",
+      "link": "https://www.amazon.com/dp/B07N1B53N1",
+      "description": "A post covered in rough material for cats to scratch, helping to satisfy their natural instincts."
+    },
+    {
+      "id": 75,
+      "product_name": "AuKing Mini Projector 2024 Upgraded, 1080P Full HD Supported",
+      "link": "https://www.amazon.com/dp/B0B5Z8D4B4",
+      "description": "A compact device that projects video from a phone or computer onto a screen or wall."
+    },
+    {
+      "id": 76,
+      "product_name": "U Brands Magnetic Dry Erase Board, 11 x 14 Inches, White Frame",
+      "link": "https://www.amazon.com/dp/B01HD7TDT0",
+      "description": "A whiteboard with a magnetic surface for writing notes and hanging papers."
+    },
+    {
+      "id": 77,
+      "product_name": "LifeAround2Angels Bath Bombs Gift Set 12 USA made Fizzies",
+      "link": "https://www.amazon.com/dp/B01MFGN8S5",
+      "description": "A collection of scented, effervescent balls that dissolve in bathwater, releasing oils and fragrances."
+    },
+    {
+      "id": 78,
+      "product_name": "Mixology & Craft Bartender Kit: 10-Piece Bar Tool Set with Stylish Bamboo Stand",
+      "link": "https://www.amazon.com/dp/B07B13N25T",
+      "description": "A set of tools, including a shaker, jigger, and strainer, for mixing professional-quality cocktails at home."
+    },
+    {
+      "id": 79,
+      "product_name": "Epson WorkForce ES-50 Portable Sheet-Fed Document Scanner",
+      "link": "https://www.amazon.com/dp/B078X1S9L5",
+      "description": "A compact scanner designed to quickly digitize paper documents, receipts, and photos."
+    },
+    {
+      "id": 80,
+      "product_name": "Twinkle Star Wild Bird Feeder Hanging for Garden Yard Outside Decoration",
+      "link": "https://www.amazon.com/dp/B07DHGQ45N",
+      "description": "A decorative container designed to be hung outdoors to provide food for wild birds."
+    },
+    {
+      "id": 81,
+      "product_name": "YIWER Scented Candles, 4 Pack 4.4 oz Soy Wax Portable Tin Candles",
+      "link": "https://www.amazon.com/dp/B07N4Q9X3M",
+      "description": "A set of candles made from soy wax infused with fragrances to create a pleasant ambiance."
+    },
+    {
+      "id": 82,
+      "product_name": "Presto 04820 PopLite Hot Air Popper",
+      "link": "https://www.amazon.com/dp/B00006IUWA",
+      "description": "A kitchen appliance that uses hot air instead of oil to make popcorn from kernels."
+    },
+    {
+      "id": 83,
+      "product_name": "Nekteck Foot Massager with Heat, Shiatsu Heated Electric Kneading Foot Massager Machine",
+      "link": "https://www.amazon.com/dp/B06W5655P5",
+      "description": "An electric device that provides a heated, deep-kneading massage to soothe tired feet."
+    },
+    {
+      "id": 84,
+      "product_name": "LISEN Car Phone Holder Mount [Upgraded Clip]",
+      "link": "https://www.amazon.com/dp/B0B5DDV5G4",
+      "description": "A secure cradle that attaches to a car's dashboard or air vent to hold a smartphone for easy viewing."
+    },
+    {
+      "id": 85,
+      "product_name": "Nixplay 10.1 inch Smart Digital Photo Frame with WiFi",
+      "link": "https://www.amazon.com/dp/B07S7XP93X",
+      "description": "An electronic picture frame that displays a rotating selection of photos sent via email or an app."
+    },
+    {
+      "id": 86,
+      "product_name": "Smart Sheep Wool Dryer Balls - XL Premium, Reusable, Natural Fabric Softener",
+      "link": "https://www.amazon.com/dp/B00GA9X55O",
+      "description": "Reusable wool balls that tumble in the dryer to soften clothes and reduce drying time."
+    },
+    {
+      "id": 87,
+      "product_name": "ARTDOT 5D Diamond Painting Kits for Adults",
+      "link": "https://www.amazon.com/dp/B09VGR1DF4",
+      "description": "A mosaic art kit where you apply small resin 'diamonds' to an adhesive canvas to create a sparkling picture."
+    },
+    {
+      "id": 88,
+      "product_name": "Sharp Pebble Premium Whetstone Knife Sharpening Stone 2 Side Grit 1000/6000",
+      "link": "https://www.amazon.com/dp/B01FZZUL30",
+      "description": "A two-sided water stone used to sharpen and hone the blades of kitchen knives."
+    },
+    {
+      "id": 89,
+      "product_name": "LapGear Home Office Lap Desk with Device Ledge, Mouse Pad, and Phone Holder",
+      "link": "https://www.amazon.com/dp/B07N9V138S",
+      "description": "A portable tray with a cushioned bottom for using a laptop comfortably on a couch or bed."
+    },
+    {
+      "id": 90,
+      "product_name": "Columbia Women's Newton Ridge Plus Waterproof Amped Hiking Boot",
+      "link": "https://www.amazon.com/dp/B01N6Y4DYC",
+      "description": "Sturdy, waterproof boots designed to provide support and traction on outdoor trails."
+    },
+    {
+      "id": 91,
+      "product_name": "REVLON One-Step Volumizer Original 1.0 Hair Dryer and Hot Air Brush",
+      "link": "https://www.amazon.com/dp/B01LSUQSB0",
+      "description": "A styling tool that combines a hair dryer and a round brush to dry and style hair simultaneously."
+    },
+    {
+      "id": 92,
+      "product_name": "KOZO Best Herb Grinder [2.5 Inch]",
+      "link": "https://www.amazon.com/dp/B07C5KTSN9",
+      "description": "A small device used to grind dried herbs, spices, and tobacco into a finer consistency."
+    },
+    {
+      "id": 93,
+      "product_name": "Kasa Smart Plug HS103P4, Smart Home Wi-Fi Outlet",
+      "link": "https://www.amazon.com/dp/B083JKBA7F",
+      "description": "A plug that fits into any standard outlet, allowing you to turn connected devices on and off remotely via an app."
+    },
+    {
+      "id": 94,
+      "product_name": "Vicks ZzzQuil PURE Zzzs, All Night, Melatonin Sleep Aid Extended Release",
+      "link": "https://www.amazon.com/dp/B084P64319",
+      "description": "Dietary supplements containing melatonin, often in gummy or tablet form, to help regulate sleep cycles."
+    },
+    {
+      "id": 95,
+      "product_name": "MYNT3D Super 3D Pen, 1.75mm ABS and PLA Compatible 3D Printing Pen",
+      "link": "https://www.amazon.com/dp/B01BLF200S",
+      "description": "A handheld pen that extrudes heated plastic filament, allowing you to draw three-dimensional objects."
+    },
+    {
+      "id": 96,
+      "product_name": "RUFFWEAR, Quencher Cinch Top, Collapsible Dog Bowl",
+      "link": "https://www.amazon.com/dp/B078S5127S",
+      "description": "A lightweight, foldable bowl for providing food or water to a dog during travel or outdoor activities."
+    },
+    {
+      "id": 97,
+      "product_name": "Plus Japan Staple-Free Stapler, Paper Clinch, 5-Sheet Capacity",
+      "link": "https://www.amazon.com/dp/B00L4DS5Y4",
+      "description": "An office tool that fastens sheets of paper together by punching and folding the paper, requiring no metal staples."
+    },
+    {
+      "id": 98,
+      "product_name": "niupipo Pickleball Paddles, USAPA Approved Fiberglass Surface Pickleball Set",
+      "link": "https://www.amazon.com/dp/B07DKBYS1B",
+      "description": "A set of lightweight paddles and balls used for playing the sport of pickleball."
+    },
+    {
+      "id": 99,
+      "product_name": "TRAVANDO Mens Slim Wallet with Money Clip \"AUSTIN\" RFID Blocking",
+      "link": "https://www.amazon.com/dp/B07H8V2QG5",
+      "description": "A minimalist wallet designed to block RFID signals, protecting credit cards from unauthorized scanning."
+    },
+    {
+      "id": 100,
+      "product_name": "Spiralizer 5-Blade Vegetable Slicer, Strongest-and-Heaviest Duty Spiral Slicer",
+      "link": "https://www.amazon.com/dp/B00VACE4AE",
+      "description": "A kitchen gadget that cuts vegetables like zucchini and carrots into long, noodle-like strands."
+    }
+  ]
+}

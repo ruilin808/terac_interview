@@ -1,0 +1,62 @@
+{
+  "interviewee_id": "INT_066",
+  "personal_info": {
+    "name": "Angela",
+    "age": 59,
+    "age_range": "55-59",
+    "gender": "female",
+    "race_ethnicity": [
+      "hispanic",
+      "white"
+    ],
+    "education_level": "some_college",
+    "employment_status": "student",
+    "occupation": "student",
+    "industry": "none",
+    "income_range": "$75k-$100k",
+    "location": {
+      "city": "Charlotte",
+      "state": "NC",
+      "country": "US",
+      "region": "southeast"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_066_20240323",
+      "date": "2024-03-23",
+      "start_time": "2024-03-23T14:00:00Z",
+      "end_time": "2024-03-23T12:04:00Z",
+      "duration_minutes": 35,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_19",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8203040582625507,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_066_20240323.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_066_20240607",
+      "date": "2024-06-07",
+      "start_time": "2024-06-07T16:30:00Z",
+      "end_time": "2024-06-07T10:40:00Z",
+      "duration_minutes": 36,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_01",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8899969590945178,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_066_20240607.json",
+      "compensation_amount": 75
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "social_media",
+    "total_interviews_completed": 2,
+    "total_compensation": 100,
+    "hourly_compensation_rate": 84.51
+  }
+}

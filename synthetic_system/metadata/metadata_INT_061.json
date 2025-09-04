@@ -1,0 +1,47 @@
+{
+  "interviewee_id": "INT_061",
+  "personal_info": {
+    "name": "Onyx",
+    "age": 35,
+    "age_range": "35-39",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "white",
+      "hispanic"
+    ],
+    "education_level": "bachelor's degree",
+    "employment_status": "self_employed",
+    "occupation": "buyer",
+    "industry": "retail",
+    "income_range": "$150k+",
+    "location": {
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "region": "northeast"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_061_20241227",
+      "date": "2024-12-27",
+      "start_time": "2024-12-27T17:00:00Z",
+      "end_time": "2024-12-27T14:07:00Z",
+      "duration_minutes": 63,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_17",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7587103051358425,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_061_20241227.json",
+      "compensation_amount": 100
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "website",
+    "total_interviews_completed": 1,
+    "total_compensation": 100,
+    "hourly_compensation_rate": 95.24
+  }
+}

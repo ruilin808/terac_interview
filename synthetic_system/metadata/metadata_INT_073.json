@@ -1,0 +1,62 @@
+{
+  "interviewee_id": "INT_073",
+  "personal_info": {
+    "name": "Jamie",
+    "age": 37,
+    "age_range": "35-39",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "white",
+      "asian"
+    ],
+    "education_level": "master's degree",
+    "employment_status": "self_employed",
+    "occupation": "software engineer",
+    "industry": "technology",
+    "income_range": "$0-$25k",
+    "location": {
+      "city": "San Diego",
+      "state": "CA",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_073_20240314",
+      "date": "2024-03-14",
+      "start_time": "2024-03-14T16:30:00Z",
+      "end_time": "2024-03-14T10:17:00Z",
+      "duration_minutes": 39,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_08",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.88249887598069,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_073_20240314.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_073_20241207",
+      "date": "2024-12-07",
+      "start_time": "2024-12-07T11:30:00Z",
+      "end_time": "2024-12-07T11:33:00Z",
+      "duration_minutes": 58,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_14",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8151276542709909,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_073_20241207.json",
+      "compensation_amount": 100
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "referral",
+    "total_interviews_completed": 2,
+    "total_compensation": 150,
+    "hourly_compensation_rate": 92.78
+  }
+}

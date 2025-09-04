@@ -1,0 +1,92 @@
+{
+  "interviewee_id": "INT_070",
+  "personal_info": {
+    "name": "Heather",
+    "age": 31,
+    "age_range": "30-34",
+    "gender": "female",
+    "race_ethnicity": [
+      "black",
+      "asian"
+    ],
+    "education_level": "high_school",
+    "employment_status": "retired",
+    "occupation": "retired",
+    "industry": "none",
+    "income_range": "$150k+",
+    "location": {
+      "city": "Denver",
+      "state": "CO",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_070_20240808",
+      "date": "2024-08-08",
+      "start_time": "2024-08-08T11:00:00Z",
+      "end_time": "2024-08-08T15:20:00Z",
+      "duration_minutes": 41,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_17",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8336802240859733,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_070_20240808.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_070_20241007",
+      "date": "2024-10-07",
+      "start_time": "2024-10-07T15:00:00Z",
+      "end_time": "2024-10-07T12:22:00Z",
+      "duration_minutes": 41,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_20",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.767253084365104,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_070_20241007.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_070_20241011",
+      "date": "2024-10-11",
+      "start_time": "2024-10-11T12:30:00Z",
+      "end_time": "2024-10-11T12:05:00Z",
+      "duration_minutes": 73,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_11",
+      "location": "remote",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8261541037639899,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_070_20241011.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_070_20240520",
+      "date": "2024-05-20",
+      "start_time": "2024-05-20T09:30:00Z",
+      "end_time": "2024-05-20T10:58:00Z",
+      "duration_minutes": 59,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_16",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7647536234210137,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_070_20240520.json",
+      "compensation_amount": 100
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "social_media",
+    "total_interviews_completed": 4,
+    "total_compensation": 175,
+    "hourly_compensation_rate": 49.07
+  }
+}

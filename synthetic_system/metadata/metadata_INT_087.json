@@ -1,0 +1,92 @@
+{
+  "interviewee_id": "INT_087",
+  "personal_info": {
+    "name": "Cameron",
+    "age": 21,
+    "age_range": "18-24",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "asian",
+      "white"
+    ],
+    "education_level": "high_school",
+    "employment_status": "self_employed",
+    "occupation": "sales associate",
+    "industry": "retail",
+    "income_range": "$25k-$50k",
+    "location": {
+      "city": "Seattle",
+      "state": "WA",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_087_20241017",
+      "date": "2024-10-17",
+      "start_time": "2024-10-17T16:00:00Z",
+      "end_time": "2024-10-17T17:06:00Z",
+      "duration_minutes": 90,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_09",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8168813925169682,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_087_20241017.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_087_20240330",
+      "date": "2024-03-30",
+      "start_time": "2024-03-30T11:15:00Z",
+      "end_time": "2024-03-30T09:31:00Z",
+      "duration_minutes": 47,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_06",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8647875121887019,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_087_20240330.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_087_20241204",
+      "date": "2024-12-04",
+      "start_time": "2024-12-04T15:30:00Z",
+      "end_time": "2024-12-04T16:07:00Z",
+      "duration_minutes": 66,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_12",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.9009052089623533,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_087_20241204.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_087_20240727",
+      "date": "2024-07-27",
+      "start_time": "2024-07-27T14:15:00Z",
+      "end_time": "2024-07-27T14:56:00Z",
+      "duration_minutes": 69,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_04",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.9382646143627182,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_087_20240727.json",
+      "compensation_amount": 25
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "website",
+    "total_interviews_completed": 4,
+    "total_compensation": 250,
+    "hourly_compensation_rate": 55.15
+  }
+}

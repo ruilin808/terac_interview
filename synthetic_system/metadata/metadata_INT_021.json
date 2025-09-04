@@ -1,0 +1,46 @@
+{
+  "interviewee_id": "INT_021",
+  "personal_info": {
+    "name": "Anthony",
+    "age": 57,
+    "age_range": "55-59",
+    "gender": "male",
+    "race_ethnicity": [
+      "black"
+    ],
+    "education_level": "high_school",
+    "employment_status": "full_time",
+    "occupation": "sales representative",
+    "industry": "business",
+    "income_range": "$0-$25k",
+    "location": {
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "region": "northeast"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_021_20240316",
+      "date": "2024-03-16",
+      "start_time": "2024-03-16T10:15:00Z",
+      "end_time": "2024-03-16T10:39:00Z",
+      "duration_minutes": 67,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_06",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.780636398976959,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_021_20240316.json",
+      "compensation_amount": 100
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "email_campaign",
+    "total_interviews_completed": 1,
+    "total_compensation": 100,
+    "hourly_compensation_rate": 89.55
+  }
+}

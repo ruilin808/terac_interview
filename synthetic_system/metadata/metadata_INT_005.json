@@ -1,0 +1,76 @@
+{
+  "interviewee_id": "INT_005",
+  "personal_info": {
+    "name": "Kelly",
+    "age": 43,
+    "age_range": "40-44",
+    "gender": "female",
+    "race_ethnicity": [
+      "white"
+    ],
+    "education_level": "bachelor's degree",
+    "employment_status": "full_time",
+    "occupation": "store manager",
+    "industry": "retail",
+    "income_range": "$100k-$150k",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "US",
+      "region": "northeast"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_005_20240825",
+      "date": "2024-08-25",
+      "start_time": "2024-08-25T11:00:00Z",
+      "end_time": "2024-08-25T11:09:00Z",
+      "duration_minutes": 37,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_13",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.9048560788874811,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_005_20240825.json",
+      "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_005_20240705",
+      "date": "2024-07-05",
+      "start_time": "2024-07-05T10:30:00Z",
+      "end_time": "2024-07-05T15:56:00Z",
+      "duration_minutes": 36,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_11",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8208653713598889,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_005_20240705.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_005_20240430",
+      "date": "2024-04-30",
+      "start_time": "2024-04-30T11:30:00Z",
+      "end_time": "2024-04-30T11:14:00Z",
+      "duration_minutes": 31,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_05",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8140338346912382,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_005_20240430.json",
+      "compensation_amount": 25
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "social_media",
+    "total_interviews_completed": 3,
+    "total_compensation": 150,
+    "hourly_compensation_rate": 86.54
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "interviewee_id": "INT_084",
+  "personal_info": {
+    "name": "Sydney",
+    "age": 54,
+    "age_range": "50-54",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "asian"
+    ],
+    "education_level": "master's degree",
+    "employment_status": "full_time",
+    "occupation": "analyst",
+    "industry": "business",
+    "income_range": "$75k-$100k",
+    "location": {
+      "city": "Philadelphia",
+      "state": "PA",
+      "country": "US",
+      "region": "northeast"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_084_20241213",
+      "date": "2024-12-13",
+      "start_time": "2024-12-13T14:15:00Z",
+      "end_time": "2024-12-13T17:33:00Z",
+      "duration_minutes": 40,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_04",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8425058263456476,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_084_20241213.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_084_20241016",
+      "date": "2024-10-16",
+      "start_time": "2024-10-16T16:00:00Z",
+      "end_time": "2024-10-16T10:15:00Z",
+      "duration_minutes": 43,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_01",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.9665416884184563,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_084_20241016.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_084_20241110",
+      "date": "2024-11-10",
+      "start_time": "2024-11-10T11:00:00Z",
+      "end_time": "2024-11-10T15:35:00Z",
+      "duration_minutes": 56,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_13",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.9778735484797513,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_084_20241110.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_084_20240525",
+      "date": "2024-05-25",
+      "start_time": "2024-05-25T11:00:00Z",
+      "end_time": "2024-05-25T16:49:00Z",
+      "duration_minutes": 88,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_18",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.9607979672010193,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_084_20240525.json",
+      "compensation_amount": 75
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "social_media",
+    "total_interviews_completed": 4,
+    "total_compensation": 275,
+    "hourly_compensation_rate": 72.69
+  }
+}

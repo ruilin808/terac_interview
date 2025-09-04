@@ -1,0 +1,61 @@
+{
+  "interviewee_id": "INT_035",
+  "personal_info": {
+    "name": "Jordan",
+    "age": 50,
+    "age_range": "50-54",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "white"
+    ],
+    "education_level": "master's degree",
+    "employment_status": "student",
+    "occupation": "student",
+    "industry": "none",
+    "income_range": "$50k-$75k",
+    "location": {
+      "city": "Dallas",
+      "state": "TX",
+      "country": "US",
+      "region": "southwest"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_035_20240617",
+      "date": "2024-06-17",
+      "start_time": "2024-06-17T11:00:00Z",
+      "end_time": "2024-06-17T10:24:00Z",
+      "duration_minutes": 30,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_10",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.9799177332236125,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_035_20240617.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_035_20240816",
+      "date": "2024-08-16",
+      "start_time": "2024-08-16T09:30:00Z",
+      "end_time": "2024-08-16T13:51:00Z",
+      "duration_minutes": 55,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_13",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7951693339087856,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_035_20240816.json",
+      "compensation_amount": 100
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "website",
+    "total_interviews_completed": 2,
+    "total_compensation": 200,
+    "hourly_compensation_rate": 141.18
+  }
+}

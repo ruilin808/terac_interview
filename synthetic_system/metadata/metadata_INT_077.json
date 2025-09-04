@@ -1,0 +1,62 @@
+{
+  "interviewee_id": "INT_077",
+  "personal_info": {
+    "name": "Matthew",
+    "age": 37,
+    "age_range": "35-39",
+    "gender": "male",
+    "race_ethnicity": [
+      "white",
+      "hispanic"
+    ],
+    "education_level": "doctorate",
+    "employment_status": "full_time",
+    "occupation": "writer",
+    "industry": "other",
+    "income_range": "$100k-$150k",
+    "location": {
+      "city": "San Diego",
+      "state": "CA",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_077_20240203",
+      "date": "2024-02-03",
+      "start_time": "2024-02-03T17:45:00Z",
+      "end_time": "2024-02-03T13:23:00Z",
+      "duration_minutes": 36,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_16",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8185476207538878,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_077_20240203.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_077_20240407",
+      "date": "2024-04-07",
+      "start_time": "2024-04-07T09:45:00Z",
+      "end_time": "2024-04-07T15:28:00Z",
+      "duration_minutes": 34,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_09",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7643275890372153,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_077_20240407.json",
+      "compensation_amount": 25
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "email_campaign",
+    "total_interviews_completed": 2,
+    "total_compensation": 50,
+    "hourly_compensation_rate": 42.86
+  }
+}

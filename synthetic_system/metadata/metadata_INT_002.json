@@ -1,0 +1,62 @@
+{
+  "interviewee_id": "INT_002",
+  "personal_info": {
+    "name": "Henry",
+    "age": 45,
+    "age_range": "45-49",
+    "gender": "male",
+    "race_ethnicity": [
+      "white",
+      "hispanic"
+    ],
+    "education_level": "bachelor's degree",
+    "employment_status": "full_time",
+    "occupation": "consultant",
+    "industry": "business",
+    "income_range": "$25k-$50k",
+    "location": {
+      "city": "Dallas",
+      "state": "TX",
+      "country": "US",
+      "region": "southwest"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_002_20240925",
+      "date": "2024-09-25",
+      "start_time": "2024-09-25T16:00:00Z",
+      "end_time": "2024-09-25T14:02:00Z",
+      "duration_minutes": 73,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_19",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.804236264392733,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_002_20240925.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_002_20240303",
+      "date": "2024-03-03",
+      "start_time": "2024-03-03T15:15:00Z",
+      "end_time": "2024-03-03T12:38:00Z",
+      "duration_minutes": 88,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_07",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.7780295636508581,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_002_20240303.json",
+      "compensation_amount": 100
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "referral",
+    "total_interviews_completed": 2,
+    "total_compensation": 125,
+    "hourly_compensation_rate": 46.58
+  }
+}

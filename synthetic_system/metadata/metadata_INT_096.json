@@ -1,0 +1,91 @@
+{
+  "interviewee_id": "INT_096",
+  "personal_info": {
+    "name": "Benjamin",
+    "age": 18,
+    "age_range": "18-24",
+    "gender": "male",
+    "race_ethnicity": [
+      "hispanic"
+    ],
+    "education_level": "high_school",
+    "employment_status": "retired",
+    "occupation": "retired",
+    "industry": "none",
+    "income_range": "$100k-$150k",
+    "location": {
+      "city": "San Antonio",
+      "state": "TX",
+      "country": "US",
+      "region": "southwest"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_096_20240608",
+      "date": "2024-06-08",
+      "start_time": "2024-06-08T11:45:00Z",
+      "end_time": "2024-06-08T18:16:00Z",
+      "duration_minutes": 52,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_17",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.9310691163291747,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_096_20240608.json",
+      "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_096_20240617",
+      "date": "2024-06-17",
+      "start_time": "2024-06-17T17:45:00Z",
+      "end_time": "2024-06-17T16:26:00Z",
+      "duration_minutes": 73,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_02",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7679837640875049,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_096_20240617.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_096_20240822",
+      "date": "2024-08-22",
+      "start_time": "2024-08-22T10:00:00Z",
+      "end_time": "2024-08-22T15:55:00Z",
+      "duration_minutes": 53,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_06",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8754925696182477,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_096_20240822.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_096_20241128",
+      "date": "2024-11-28",
+      "start_time": "2024-11-28T16:15:00Z",
+      "end_time": "2024-11-28T09:50:00Z",
+      "duration_minutes": 80,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_17",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8010895755264167,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_096_20241128.json",
+      "compensation_amount": 75
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "website",
+    "total_interviews_completed": 4,
+    "total_compensation": 275,
+    "hourly_compensation_rate": 63.95
+  }
+}

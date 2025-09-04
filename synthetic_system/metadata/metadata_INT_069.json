@@ -1,0 +1,76 @@
+{
+  "interviewee_id": "INT_069",
+  "personal_info": {
+    "name": "Alexander",
+    "age": 31,
+    "age_range": "30-34",
+    "gender": "male",
+    "race_ethnicity": [
+      "black"
+    ],
+    "education_level": "high_school",
+    "employment_status": "student",
+    "occupation": "student",
+    "industry": "none",
+    "income_range": "$150k+",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_069_20241203",
+      "date": "2024-12-03",
+      "start_time": "2024-12-03T17:45:00Z",
+      "end_time": "2024-12-03T11:51:00Z",
+      "duration_minutes": 48,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_13",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8940057724078196,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_069_20241203.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_069_20241118",
+      "date": "2024-11-18",
+      "start_time": "2024-11-18T15:15:00Z",
+      "end_time": "2024-11-18T14:39:00Z",
+      "duration_minutes": 84,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_19",
+      "location": "remote",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8462465382027644,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_069_20241118.json",
+      "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_069_20241217",
+      "date": "2024-12-17",
+      "start_time": "2024-12-17T10:45:00Z",
+      "end_time": "2024-12-17T17:03:00Z",
+      "duration_minutes": 32,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_18",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8019992227304483,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_069_20241217.json",
+      "compensation_amount": 25
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "email_campaign",
+    "total_interviews_completed": 3,
+    "total_compensation": 125,
+    "hourly_compensation_rate": 45.73
+  }
+}

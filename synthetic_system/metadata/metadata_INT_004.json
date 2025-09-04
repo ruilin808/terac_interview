@@ -1,0 +1,91 @@
+{
+  "interviewee_id": "INT_004",
+  "personal_info": {
+    "name": "Reese",
+    "age": 50,
+    "age_range": "50-54",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "black"
+    ],
+    "education_level": "some_college",
+    "employment_status": "student",
+    "occupation": "student",
+    "industry": "none",
+    "income_range": "$0-$25k",
+    "location": {
+      "city": "Dallas",
+      "state": "TX",
+      "country": "US",
+      "region": "southwest"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_004_20241219",
+      "date": "2024-12-19",
+      "start_time": "2024-12-19T14:15:00Z",
+      "end_time": "2024-12-19T12:32:00Z",
+      "duration_minutes": 33,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_18",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8175121827528815,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_004_20241219.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_004_20240823",
+      "date": "2024-08-23",
+      "start_time": "2024-08-23T12:15:00Z",
+      "end_time": "2024-08-23T17:06:00Z",
+      "duration_minutes": 54,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_10",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.7707760370362302,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_004_20240823.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_004_20240919",
+      "date": "2024-09-19",
+      "start_time": "2024-09-19T11:30:00Z",
+      "end_time": "2024-09-19T17:49:00Z",
+      "duration_minutes": 46,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_18",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8289376826897232,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_004_20240919.json",
+      "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_004_20241217",
+      "date": "2024-12-17",
+      "start_time": "2024-12-17T12:45:00Z",
+      "end_time": "2024-12-17T15:49:00Z",
+      "duration_minutes": 69,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_12",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8598228316168248,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_004_20241217.json",
+      "compensation_amount": 75
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "website",
+    "total_interviews_completed": 4,
+    "total_compensation": 300,
+    "hourly_compensation_rate": 89.11
+  }
+}

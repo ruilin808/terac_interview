@@ -1,0 +1,76 @@
+{
+  "interviewee_id": "INT_039",
+  "personal_info": {
+    "name": "Jessica",
+    "age": 71,
+    "age_range": "65+",
+    "gender": "female",
+    "race_ethnicity": [
+      "white"
+    ],
+    "education_level": "bachelor's degree",
+    "employment_status": "self_employed",
+    "occupation": "administrator",
+    "industry": "education",
+    "income_range": "$150k+",
+    "location": {
+      "city": "Denver",
+      "state": "CO",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_039_20241104",
+      "date": "2024-11-04",
+      "start_time": "2024-11-04T10:15:00Z",
+      "end_time": "2024-11-04T14:45:00Z",
+      "duration_minutes": 51,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_05",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8280648117162884,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_039_20241104.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_039_20241206",
+      "date": "2024-12-06",
+      "start_time": "2024-12-06T13:30:00Z",
+      "end_time": "2024-12-06T15:48:00Z",
+      "duration_minutes": 85,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_05",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8056939134619253,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_039_20241206.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_039_20240514",
+      "date": "2024-05-14",
+      "start_time": "2024-05-14T15:30:00Z",
+      "end_time": "2024-05-14T12:22:00Z",
+      "duration_minutes": 65,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_04",
+      "location": "remote",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8346025149044476,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_039_20240514.json",
+      "compensation_amount": 50
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "email_campaign",
+    "total_interviews_completed": 3,
+    "total_compensation": 175,
+    "hourly_compensation_rate": 52.24
+  }
+}

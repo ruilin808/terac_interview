@@ -1,0 +1,61 @@
+{
+  "interviewee_id": "INT_091",
+  "personal_info": {
+    "name": "Sydney",
+    "age": 24,
+    "age_range": "18-24",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "hispanic"
+    ],
+    "education_level": "master's degree",
+    "employment_status": "full_time",
+    "occupation": "UX designer",
+    "industry": "technology",
+    "income_range": "$150k+",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_091_20241120",
+      "date": "2024-11-20",
+      "start_time": "2024-11-20T14:45:00Z",
+      "end_time": "2024-11-20T11:55:00Z",
+      "duration_minutes": 46,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_11",
+      "location": "remote",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8209839054836776,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_091_20241120.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_091_20240310",
+      "date": "2024-03-10",
+      "start_time": "2024-03-10T14:45:00Z",
+      "end_time": "2024-03-10T15:11:00Z",
+      "duration_minutes": 76,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_14",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8776203170431911,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_091_20240310.json",
+      "compensation_amount": 25
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "website",
+    "total_interviews_completed": 2,
+    "total_compensation": 50,
+    "hourly_compensation_rate": 24.59
+  }
+}

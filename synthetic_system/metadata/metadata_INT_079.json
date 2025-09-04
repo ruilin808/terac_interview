@@ -1,0 +1,61 @@
+{
+  "interviewee_id": "INT_079",
+  "personal_info": {
+    "name": "Henry",
+    "age": 66,
+    "age_range": "65+",
+    "gender": "male",
+    "race_ethnicity": [
+      "white"
+    ],
+    "education_level": "high_school",
+    "employment_status": "unemployed",
+    "occupation": "unemployed",
+    "industry": "none",
+    "income_range": "$100k-$150k",
+    "location": {
+      "city": "Austin",
+      "state": "TX",
+      "country": "US",
+      "region": "southwest"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_079_20241002",
+      "date": "2024-10-02",
+      "start_time": "2024-10-02T14:15:00Z",
+      "end_time": "2024-10-02T16:43:00Z",
+      "duration_minutes": 76,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_09",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.835191691150846,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_079_20241002.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_079_20240715",
+      "date": "2024-07-15",
+      "start_time": "2024-07-15T15:45:00Z",
+      "end_time": "2024-07-15T15:43:00Z",
+      "duration_minutes": 53,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_13",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8524597738534262,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_079_20240715.json",
+      "compensation_amount": 100
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "email_campaign",
+    "total_interviews_completed": 2,
+    "total_compensation": 150,
+    "hourly_compensation_rate": 69.77
+  }
+}

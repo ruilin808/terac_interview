@@ -1,0 +1,61 @@
+{
+  "interviewee_id": "INT_031",
+  "personal_info": {
+    "name": "West",
+    "age": 35,
+    "age_range": "35-39",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "white"
+    ],
+    "education_level": "master's degree",
+    "employment_status": "self_employed",
+    "occupation": "mechanic",
+    "industry": "other",
+    "income_range": "$50k-$75k",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_031_20240829",
+      "date": "2024-08-29",
+      "start_time": "2024-08-29T10:45:00Z",
+      "end_time": "2024-08-29T13:27:00Z",
+      "duration_minutes": 82,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_09",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7908479003878438,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_031_20240829.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_031_20240310",
+      "date": "2024-03-10",
+      "start_time": "2024-03-10T15:45:00Z",
+      "end_time": "2024-03-10T09:32:00Z",
+      "duration_minutes": 44,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_20",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.852818803651434,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_031_20240310.json",
+      "compensation_amount": 100
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "website",
+    "total_interviews_completed": 2,
+    "total_compensation": 200,
+    "hourly_compensation_rate": 95.24
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "interviewee_id": "INT_043",
+  "personal_info": {
+    "name": "Riley",
+    "age": 62,
+    "age_range": "60-64",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "native_american",
+      "white"
+    ],
+    "education_level": "some_college",
+    "employment_status": "student",
+    "occupation": "student",
+    "industry": "none",
+    "income_range": "$75k-$100k",
+    "location": {
+      "city": "Charlotte",
+      "state": "NC",
+      "country": "US",
+      "region": "southeast"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_043_20240627",
+      "date": "2024-06-27",
+      "start_time": "2024-06-27T12:30:00Z",
+      "end_time": "2024-06-27T16:24:00Z",
+      "duration_minutes": 44,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_05",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.9557906302026982,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_043_20240627.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_043_20241223",
+      "date": "2024-12-23",
+      "start_time": "2024-12-23T17:15:00Z",
+      "end_time": "2024-12-23T14:19:00Z",
+      "duration_minutes": 67,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_10",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.9226305696837129,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_043_20241223.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_043_20240702",
+      "date": "2024-07-02",
+      "start_time": "2024-07-02T15:30:00Z",
+      "end_time": "2024-07-02T12:26:00Z",
+      "duration_minutes": 84,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_15",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.9287077200274954,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_043_20240702.json",
+      "compensation_amount": 75
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "referral",
+    "total_interviews_completed": 3,
+    "total_compensation": 175,
+    "hourly_compensation_rate": 53.85
+  }
+}

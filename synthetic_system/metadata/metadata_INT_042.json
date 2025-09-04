@@ -1,0 +1,62 @@
+{
+  "interviewee_id": "INT_042",
+  "personal_info": {
+    "name": "Brian",
+    "age": 32,
+    "age_range": "30-34",
+    "gender": "male",
+    "race_ethnicity": [
+      "white",
+      "black"
+    ],
+    "education_level": "some_college",
+    "employment_status": "unemployed",
+    "occupation": "unemployed",
+    "industry": "none",
+    "income_range": "$50k-$75k",
+    "location": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "country": "US",
+      "region": "midwest"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_042_20241128",
+      "date": "2024-11-28",
+      "start_time": "2024-11-28T14:15:00Z",
+      "end_time": "2024-11-28T12:46:00Z",
+      "duration_minutes": 50,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_08",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8958038472283611,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_042_20241128.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_042_20241024",
+      "date": "2024-10-24",
+      "start_time": "2024-10-24T12:00:00Z",
+      "end_time": "2024-10-24T18:09:00Z",
+      "duration_minutes": 82,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_17",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.9015433352330675,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_042_20241024.json",
+      "compensation_amount": 25
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "social_media",
+    "total_interviews_completed": 2,
+    "total_compensation": 50,
+    "hourly_compensation_rate": 22.73
+  }
+}

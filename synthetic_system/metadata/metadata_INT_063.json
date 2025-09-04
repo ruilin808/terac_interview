@@ -1,0 +1,91 @@
+{
+  "interviewee_id": "INT_063",
+  "personal_info": {
+    "name": "Tatum",
+    "age": 70,
+    "age_range": "65+",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "asian"
+    ],
+    "education_level": "some_college",
+    "employment_status": "retired",
+    "occupation": "retired",
+    "industry": "none",
+    "income_range": "$75k-$100k",
+    "location": {
+      "city": "Dallas",
+      "state": "TX",
+      "country": "US",
+      "region": "southwest"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_063_20240918",
+      "date": "2024-09-18",
+      "start_time": "2024-09-18T17:30:00Z",
+      "end_time": "2024-09-18T18:39:00Z",
+      "duration_minutes": 62,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_09",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.970631392038238,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_063_20240918.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_063_20240805",
+      "date": "2024-08-05",
+      "start_time": "2024-08-05T17:15:00Z",
+      "end_time": "2024-08-05T12:27:00Z",
+      "duration_minutes": 52,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_10",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8314495041245236,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_063_20240805.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_063_20240503",
+      "date": "2024-05-03",
+      "start_time": "2024-05-03T17:00:00Z",
+      "end_time": "2024-05-03T17:46:00Z",
+      "duration_minutes": 90,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_04",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.7703669885876978,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_063_20240503.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_063_20240126",
+      "date": "2024-01-26",
+      "start_time": "2024-01-26T16:00:00Z",
+      "end_time": "2024-01-26T17:53:00Z",
+      "duration_minutes": 79,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_10",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.873286546571837,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_063_20240126.json",
+      "compensation_amount": 50
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "social_media",
+    "total_interviews_completed": 4,
+    "total_compensation": 275,
+    "hourly_compensation_rate": 58.3
+  }
+}

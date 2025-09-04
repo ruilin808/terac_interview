@@ -1,0 +1,61 @@
+{
+  "interviewee_id": "INT_028",
+  "personal_info": {
+    "name": "Edward",
+    "age": 45,
+    "age_range": "45-49",
+    "gender": "male",
+    "race_ethnicity": [
+      "white"
+    ],
+    "education_level": "some_college",
+    "employment_status": "unemployed",
+    "occupation": "unemployed",
+    "industry": "none",
+    "income_range": "$0-$25k",
+    "location": {
+      "city": "Denver",
+      "state": "CO",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_028_20240129",
+      "date": "2024-01-29",
+      "start_time": "2024-01-29T11:45:00Z",
+      "end_time": "2024-01-29T14:17:00Z",
+      "duration_minutes": 79,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_15",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7675126213734212,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_028_20240129.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_028_20240222",
+      "date": "2024-02-22",
+      "start_time": "2024-02-22T14:30:00Z",
+      "end_time": "2024-02-22T13:10:00Z",
+      "duration_minutes": 88,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_10",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7644486803983045,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_028_20240222.json",
+      "compensation_amount": 50
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "email_campaign",
+    "total_interviews_completed": 2,
+    "total_compensation": 75,
+    "hourly_compensation_rate": 26.95
+  }
+}

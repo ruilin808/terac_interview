@@ -1,0 +1,77 @@
+{
+  "interviewee_id": "INT_023",
+  "personal_info": {
+    "name": "West",
+    "age": 51,
+    "age_range": "50-54",
+    "gender": "non_binary",
+    "race_ethnicity": [
+      "white",
+      "asian"
+    ],
+    "education_level": "master's degree",
+    "employment_status": "unemployed",
+    "occupation": "unemployed",
+    "industry": "none",
+    "income_range": "$150k+",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_023_20240530",
+      "date": "2024-05-30",
+      "start_time": "2024-05-30T09:00:00Z",
+      "end_time": "2024-05-30T14:19:00Z",
+      "duration_minutes": 37,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_15",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.860846180453051,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_023_20240530.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_023_20240330",
+      "date": "2024-03-30",
+      "start_time": "2024-03-30T09:15:00Z",
+      "end_time": "2024-03-30T17:00:00Z",
+      "duration_minutes": 70,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_20",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8279744555552117,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_023_20240330.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_023_20240614",
+      "date": "2024-06-14",
+      "start_time": "2024-06-14T11:30:00Z",
+      "end_time": "2024-06-14T10:53:00Z",
+      "duration_minutes": 44,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_12",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.894761510981552,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_023_20240614.json",
+      "compensation_amount": 25
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "email_campaign",
+    "total_interviews_completed": 3,
+    "total_compensation": 100,
+    "hourly_compensation_rate": 39.74
+  }
+}

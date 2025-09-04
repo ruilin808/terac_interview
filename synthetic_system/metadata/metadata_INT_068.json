@@ -1,0 +1,92 @@
+{
+  "interviewee_id": "INT_068",
+  "personal_info": {
+    "name": "Jacqueline",
+    "age": 38,
+    "age_range": "35-39",
+    "gender": "female",
+    "race_ethnicity": [
+      "hispanic",
+      "white"
+    ],
+    "education_level": "bachelor's degree",
+    "employment_status": "unemployed",
+    "occupation": "unemployed",
+    "industry": "none",
+    "income_range": "$150k+",
+    "location": {
+      "city": "Seattle",
+      "state": "WA",
+      "country": "US",
+      "region": "west"
+    }
+  },
+  "interviews": [
+    {
+      "interview_id": "IV_068_20240820",
+      "date": "2024-08-20",
+      "start_time": "2024-08-20T10:15:00Z",
+      "end_time": "2024-08-20T11:27:00Z",
+      "duration_minutes": 40,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_09",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8789575855388805,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_068_20240820.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_068_20240201",
+      "date": "2024-02-01",
+      "start_time": "2024-02-01T15:45:00Z",
+      "end_time": "2024-02-01T13:59:00Z",
+      "duration_minutes": 80,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_03",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8553065721833601,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_068_20240201.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_068_20240229",
+      "date": "2024-02-29",
+      "start_time": "2024-02-29T16:30:00Z",
+      "end_time": "2024-02-29T16:51:00Z",
+      "duration_minutes": 65,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_07",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8992487672600824,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_068_20240229.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_068_20240923",
+      "date": "2024-09-23",
+      "start_time": "2024-09-23T12:30:00Z",
+      "end_time": "2024-09-23T13:07:00Z",
+      "duration_minutes": 59,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_15",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.7756251317720836,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_068_20240923.json",
+      "compensation_amount": 75
+    }
+  ],
+  "study_participation": {
+    "recruitment_channel": "referral",
+    "total_interviews_completed": 4,
+    "total_compensation": 175,
+    "hourly_compensation_rate": 43.03
+  }
+}
