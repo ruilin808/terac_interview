@@ -2,4 +2,5 @@
 metadata/
 reviews/
 transcripts/
+__pycache__/
 .env

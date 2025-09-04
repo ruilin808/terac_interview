@@ -7,22 +7,16 @@ from typing import List, Dict, Any
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 
 class SyntheticDataGenerator:
     def __init__(self):
-        # Configure Gemini API
         genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
         self.model = genai.GenerativeModel('gemini-2.5-flash')
 
-        # Create output directories
         self.create_directories()
-        
-        # Load products data
         self.products = self.load_products()
         
-        # Demographics data for realistic generation
         self.demographics = {
             'ages': list(range(18, 75)),
             'names': {
@@ -77,23 +71,19 @@ class SyntheticDataGenerator:
             }
         }
         
-        # Interviewers pool
         self.interviewers = [f"STAFF_{str(i).zfill(2)}" for i in range(1, 21)]
         
     def create_directories(self):
-        """Create necessary directories for output files"""
         directories = ['metadata', 'reviews', 'transcripts']
         for directory in directories:
             os.makedirs(directory, exist_ok=True)
     
     def load_products(self):
-        """Load products from products.txt"""
         with open('products.txt', 'r') as f:
             data = json.load(f)
         return data['products']
     
     def generate_age_range(self, age: int) -> str:
-        """Generate age range based on exact age"""
         if age < 25:
             return "18-24"
         elif age < 30:
@@ -116,7 +106,6 @@ class SyntheticDataGenerator:
             return "65+"
     
     def get_region(self, state: str) -> str:
-        """Get region based on state"""
         regions = {
             'northeast': ['NY', 'PA', 'MA', 'CT', 'RI', 'VT', 'NH', 'ME', 'NJ'],
             'southeast': ['FL', 'GA', 'SC', 'NC', 'VA', 'WV', 'KY', 'TN', 'AL', 'MS', 'LA', 'AR'],
@@ -131,7 +120,6 @@ class SyntheticDataGenerator:
         return 'other'
     
     def generate_metadata_profile(self, interviewee_id: str) -> Dict[str, Any]:
-        """Generate a single metadata profile for a person"""
         age = random.choice(self.demographics['ages'])
         gender = random.choice(self.demographics['genders'])
         name = random.choice(self.demographics['names'][gender])
@@ -144,19 +132,15 @@ class SyntheticDataGenerator:
                 k=1
             )
         else:
-            # For mixed race, ensure we get 2 different races
             available_races = self.demographics['races'].copy()
             race = []
-            # Select first race
             first_race = random.choices(
                 available_races, 
                 weights=[40, 15, 20, 15, 5, 5], 
                 k=1
             )[0]
             race.append(first_race)
-            # Remove first race from options and select second race
             available_races.remove(first_race)
-            # Adjust weights for remaining races
             remaining_weights = [40, 15, 20, 15, 5, 5]
             race_index = self.demographics['races'].index(first_race)
             remaining_weights.pop(race_index)
@@ -169,7 +153,6 @@ class SyntheticDataGenerator:
         income = random.choice(self.demographics['income_ranges'])
         city, state = random.choice(self.demographics['cities'])
         
-        # Choose occupation based on education and employment
         if employment in ['unemployed', 'retired', 'student']:
             occupation = employment
             industry = 'none'
@@ -177,7 +160,6 @@ class SyntheticDataGenerator:
             industry = random.choice(list(self.demographics['occupations'].keys()))
             occupation = random.choice(self.demographics['occupations'][industry])
         
-        # Generate interview history
         num_interviews = random.randint(1, 4)
         interviews = []
         
@@ -245,7 +227,6 @@ class SyntheticDataGenerator:
         return metadata
     
     def generate_all_metadata(self) -> List[Dict[str, Any]]:
-        """Generate metadata for 100 people"""
         print("Generating metadata for 100 people...")
         metadata_profiles = []
         
@@ -254,15 +235,13 @@ class SyntheticDataGenerator:
             profile = self.generate_metadata_profile(interviewee_id)
             metadata_profiles.append(profile)
             
-            # Save individual metadata file
             with open(f'metadata/metadata_{interviewee_id}.json', 'w') as f:
                 json.dump(profile, f, indent=2)
         
-        print("✓ Generated 100 metadata profiles")
+        print("Generated 100 metadata profiles")
         return metadata_profiles
     
     def generate_reviews_for_product(self, product: Dict[str, Any]) -> List[Dict[str, Any]]:
-        """Generate 20 reviews for a single product using Gemini"""
         print(f"Generating reviews for: {product['product_name']}")
         
         prompt = f"""For this product, generate 20 reviews with the most content/elaborations and of the GREATEST length:
@@ -293,17 +272,15 @@ Generate all 20 reviews now."""
             response = self.model.generate_content(prompt)
             reviews_text = response.text
             
-            # Parse the reviews from the response
             reviews = self.parse_reviews_response(reviews_text, product)
             
-            # Save reviews to file
             with open(f"reviews/reviews_{product['id']:03d}.json", 'w') as f:
                 json.dump({
                     'product': product,
                     'reviews': reviews
                 }, f, indent=2)
             
-            print(f"✓ Generated {len(reviews)} reviews for {product['product_name']}")
+            print(f"Generated {len(reviews)} reviews for {product['product_name']}")
             return reviews
             
         except Exception as e:
@@ -311,7 +288,6 @@ Generate all 20 reviews now."""
             return []
     
     def parse_reviews_response(self, response_text: str, product: Dict[str, Any]) -> List[Dict[str, Any]]:
-        """Parse the Gemini response into structured review data"""
         reviews = []
         review_sections = response_text.split('---')
         
@@ -332,7 +308,6 @@ Generate all 20 reviews now."""
                     line = line.strip()
                     if line.startswith('Rating:'):
                         rating_text = line.replace('Rating:', '').strip()
-                        # Extract number from rating text
                         rating = int(''.join(filter(str.isdigit, rating_text)))
                         current_field = 'rating'
                     elif line.startswith('Title:'):
@@ -367,10 +342,8 @@ Generate all 20 reviews now."""
         return reviews
     
     def select_best_reviews(self, reviews: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """Select 2 most realistic reviews per star rating"""
         selected_reviews = []
         
-        # Group reviews by rating
         reviews_by_rating = {}
         for review in reviews:
             rating = review['rating']
@@ -378,31 +351,24 @@ Generate all 20 reviews now."""
                 reviews_by_rating[rating] = []
             reviews_by_rating[rating].append(review)
         
-        # Select 2 best reviews per rating
         for rating in range(1, 6):
             if rating in reviews_by_rating:
-                # Sort by word count and realism (longer reviews tend to be more detailed)
                 rating_reviews = sorted(
                     reviews_by_rating[rating], 
                     key=lambda x: x['word_count'], 
                     reverse=True
                 )
-                # Take top 2 for this rating
                 selected_reviews.extend(rating_reviews[:2])
         
         return selected_reviews
     
     def match_review_to_metadata(self, review: Dict[str, Any], metadata_profiles: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Match a review to an appropriate metadata profile based on demographics"""
-        
-        # Get product category for demographic matching
         product_id = review['product_id']
         product = next((p for p in self.products if p['id'] == product_id), None)
         
         if not product:
             return random.choice(metadata_profiles)
         
-        # Define demographic preferences for different product categories
         tech_products = ['headphones', 'robot', 'projector', 'scanner', 'usb', 'gaming', 'smart', 'bluetooth']
         fitness_products = ['yoga', 'exercise', 'fitness', 'foam roller', 'resistance', 'dumbbells']
         home_products = ['kitchen', 'cooker', 'fryer', 'kettle', 'vacuum', 'blanket']
@@ -417,40 +383,29 @@ Generate all 20 reviews now."""
             income = personal_info['income_range']
             education = personal_info['education_level']
             
-            # Tech products - younger, higher income, higher education
             if any(tech_word in product_name_lower for tech_word in tech_products):
                 if age < 45 and income in ['$50k-$75k', '$75k-$100k', '$100k-$150k', '$150k+']:
                     suitable_profiles.append(profile)
-            
-            # Fitness products - varied age, health conscious
             elif any(fit_word in product_name_lower for fit_word in fitness_products):
                 if 25 <= age <= 55:
                     suitable_profiles.append(profile)
-            
-            # Home products - broader demographic
             elif any(home_word in product_name_lower for home_word in home_products):
                 if age >= 25:
                     suitable_profiles.append(profile)
-            
             else:
-                # General products - any profile can work
                 suitable_profiles.append(profile)
         
-        # If no suitable profiles found, use any profile
         if not suitable_profiles:
             suitable_profiles = metadata_profiles
         
         return random.choice(suitable_profiles)
     
     def generate_interview_transcript(self, review: Dict[str, Any], metadata_profile: Dict[str, Any]) -> Dict[str, Any]:
-        """Generate interview transcript based on review and metadata"""
-    
         product = next((p for p in self.products if p['id'] == review['product_id']), None)
         personal_info = metadata_profile['personal_info']
         
-        # Create interviewer name and use actual interviewee name from metadata
         interviewer_name = random.choice(['Sarah', 'Mike', 'Jessica', 'David', 'Emily', 'Chris'])
-        interviewee_name = personal_info['name']  # Use actual name from metadata
+        interviewee_name = personal_info['name']
         
         prompt = f"""TASK: Generate a customer interview based on the review below. 
 
@@ -514,9 +469,8 @@ Format as natural dialogue with speaker names, no special formatting needed."""
 
         try:
             response = self.model.generate_content(prompt)
-            transcript_text = response.text
+            transcript_text = response.text.encode().decode('unicode_escape')
             
-            # Parse transcript into structured format (pass the names)
             transcript_data = self.parse_transcript(transcript_text, review, metadata_profile, product, interviewer_name, interviewee_name)
             
             return transcript_data
@@ -526,8 +480,6 @@ Format as natural dialogue with speaker names, no special formatting needed."""
             return None
     
     def parse_transcript(self, transcript_text: str, review: Dict[str, Any], metadata_profile: Dict[str, Any], product: Dict[str, Any], interviewer_name: str, interviewee_name: str) -> Dict[str, Any]:
-        """Parse transcript text into structured JSON format"""
-        
         lines = transcript_text.split('\n')
         turns = []
         turn_id = 1
@@ -540,20 +492,15 @@ Format as natural dialogue with speaker names, no special formatting needed."""
             if not line:
                 continue
             
-            # Skip obvious metadata/header lines that aren't dialogue
             if any(keyword in line.lower() for keyword in ['interviewer', 'interviewee', 'date', 'corporate representative', 'customer']):
                 continue
                 
-            # Check if line starts with a speaker name
             if ':' in line:
                 potential_speaker = line.split(':')[0].strip()
                 
-                # Clean up speaker name - remove asterisks and other formatting
                 potential_speaker = potential_speaker.replace('*', '').strip()
                 
-                # Check if this looks like a speaker name (1-2 words, not too long)
                 if len(potential_speaker.split()) <= 2 and len(potential_speaker) < 20:
-                    # Save previous turn if exists and has meaningful content
                     if current_speaker and current_text and len(current_text.strip()) > 5:
                         turns.append({
                             "turnId": turn_id,
@@ -562,19 +509,15 @@ Format as natural dialogue with speaker names, no special formatting needed."""
                         })
                         turn_id += 1
                     
-                    # Start new turn
                     current_speaker = potential_speaker
                     current_text = line.split(':', 1)[1].strip() if ':' in line else ""
                 else:
-                    # This line is continuation of current speaker
                     if current_text:
                         current_text += " " + line
             else:
-                # Continuation of current speaker
                 if current_text:
                     current_text += " " + line
         
-        # Add the last turn if it has meaningful content
         if current_speaker and current_text and len(current_text.strip()) > 5:
             turns.append({
                 "turnId": turn_id,
@@ -582,7 +525,6 @@ Format as natural dialogue with speaker names, no special formatting needed."""
                 "text": current_text.strip()
             })
         
-        # Generate interview date
         interview_date = datetime.now() - timedelta(days=random.randint(1, 30))
         
         transcript_data = {
@@ -600,64 +542,51 @@ Format as natural dialogue with speaker names, no special formatting needed."""
         return transcript_data
     
     def process_all_products(self, metadata_profiles: List[Dict[str, Any]]):
-        """Process all products: generate reviews, select best, create transcripts"""
-        
         print(f"Processing {len(self.products)} products...")
         
         for i, product in enumerate(self.products, 1):
             print(f"\n--- Processing Product {i}/{len(self.products)} ---")
             
-            # Generate 20 reviews for this product
             all_reviews = self.generate_reviews_for_product(product)
             
             if not all_reviews:
                 print(f"Skipping {product['product_name']} - no reviews generated")
                 continue
             
-            # Select 2 best reviews per rating (up to 10 total)
             selected_reviews = self.select_best_reviews(all_reviews)
             
             print(f"Selected {len(selected_reviews)} reviews for transcript generation")
             
-            # Generate transcripts for selected reviews
             for j, review in enumerate(selected_reviews):
-                # Match review to appropriate metadata profile
                 matched_profile = self.match_review_to_metadata(review, metadata_profiles)
                 
-                # Generate interview transcript
                 transcript = self.generate_interview_transcript(review, matched_profile)
                 
                 if transcript:
-                    # Save transcript
                     transcript_filename = f"transcripts/transcript_{product['id']:03d}_{j+1:02d}.json"
                     with open(transcript_filename, 'w') as f:
                         json.dump(transcript, f, indent=2)
                     
-                    print(f"✓ Generated transcript {j+1}/{len(selected_reviews)}")
+                    print(f"Generated transcript {j+1}/{len(selected_reviews)}")
                 else:
-                    print(f"✗ Failed to generate transcript {j+1}/{len(selected_reviews)}")
+                    print(f"Failed to generate transcript {j+1}/{len(selected_reviews)}")
                 
-                # Add delay to respect API limits
                 time.sleep(2)
             
-            # Longer delay between products
             time.sleep(5)
         
-        print("\n🎉 All products processed successfully!")
+        print("\nAll products processed successfully!")
     
     def run_full_pipeline(self):
-        """Run the complete data generation pipeline"""
-        print("🚀 Starting Synthetic Interview Data Generation Pipeline")
+        print("Starting Synthetic Interview Data Generation Pipeline")
         print("=" * 60)
         
-        # Step 1: Generate metadata profiles
         metadata_profiles = self.generate_all_metadata()
         
-        # Step 2: Process all products (reviews + transcripts)
         self.process_all_products(metadata_profiles)
         
         print("\n" + "=" * 60)
-        print("✅ Pipeline completed successfully!")
+        print("Pipeline completed successfully!")
         print(f"Generated files:")
         print(f"- 100 metadata profiles in /metadata/")
         print(f"- {len(self.products)} review sets in /reviews/")
