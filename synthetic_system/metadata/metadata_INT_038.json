@@ -1,62 +1,91 @@
 {
   "interviewee_id": "INT_038",
   "personal_info": {
-    "name": "Marie",
-    "age": 28,
-    "age_range": "25-29",
-    "gender": "female",
+    "name": "Timothy",
+    "age": 35,
+    "age_range": "35-39",
+    "gender": "male",
     "race_ethnicity": [
-      "asian",
-      "hispanic"
+      "black"
     ],
-    "education_level": "doctorate",
-    "employment_status": "unemployed",
-    "occupation": "unemployed",
+    "education_level": "master's degree",
+    "employment_status": "student",
+    "occupation": "student",
     "industry": "none",
-    "income_range": "$150k+",
+    "income_range": "$50k-$75k",
     "location": {
-      "city": "San Francisco",
-      "state": "CA",
+      "city": "Houston",
+      "state": "TX",
       "country": "US",
-      "region": "west"
+      "region": "southwest"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_038_20240721",
-      "date": "2024-07-21",
-      "start_time": "2024-07-21T17:00:00Z",
-      "end_time": "2024-07-21T16:20:00Z",
-      "duration_minutes": 30,
+      "interview_id": "IV_038_20241022",
+      "date": "2024-10-22",
+      "start_time": "2024-10-22T13:00:00Z",
+      "end_time": "2024-10-22T17:57:00Z",
+      "duration_minutes": 76,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_05",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8577436998217088,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_038_20241022.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_038_20240304",
+      "date": "2024-03-04",
+      "start_time": "2024-03-04T14:15:00Z",
+      "end_time": "2024-03-04T16:10:00Z",
+      "duration_minutes": 88,
       "interview_type": "product_feedback",
       "interviewer_id": "STAFF_05",
       "location": "in_person",
-      "recording_quality": "fair",
-      "transcript_confidence_score": 0.9733901834734783,
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.9584706083183535,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_038_20240721.json",
-      "compensation_amount": 50
+      "transcript_file": "transcript_IV_038_20240304.json",
+      "compensation_amount": 25
     },
     {
-      "interview_id": "IV_038_20240129",
-      "date": "2024-01-29",
-      "start_time": "2024-01-29T12:00:00Z",
-      "end_time": "2024-01-29T16:24:00Z",
-      "duration_minutes": 40,
-      "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_12",
+      "interview_id": "IV_038_20240801",
+      "date": "2024-08-01",
+      "start_time": "2024-08-01T17:45:00Z",
+      "end_time": "2024-08-01T11:43:00Z",
+      "duration_minutes": 88,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_17",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.865216304345689,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_038_20240801.json",
+      "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_038_20240205",
+      "date": "2024-02-05",
+      "start_time": "2024-02-05T17:30:00Z",
+      "end_time": "2024-02-05T15:31:00Z",
+      "duration_minutes": 48,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_09",
       "location": "remote",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.9539348245689742,
+      "transcript_confidence_score": 0.9060493853825571,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_038_20240129.json",
-      "compensation_amount": 50
+      "transcript_file": "transcript_IV_038_20240205.json",
+      "compensation_amount": 75
     }
   ],
   "study_participation": {
-    "recruitment_channel": "referral",
-    "total_interviews_completed": 2,
-    "total_compensation": 100,
-    "hourly_compensation_rate": 85.71
+    "recruitment_channel": "website",
+    "total_interviews_completed": 4,
+    "total_compensation": 200,
+    "hourly_compensation_rate": 40.0
   }
 }

@@ -1,21 +1,21 @@
 {
   "interviewee_id": "INT_029",
   "personal_info": {
-    "name": "Jacob",
-    "age": 34,
-    "age_range": "30-34",
-    "gender": "male",
+    "name": "Hayden",
+    "age": 26,
+    "age_range": "25-29",
+    "gender": "non_binary",
     "race_ethnicity": [
-      "white",
-      "black"
+      "black",
+      "white"
     ],
-    "education_level": "high_school",
+    "education_level": "bachelor's degree",
     "employment_status": "full_time",
-    "occupation": "UX designer",
-    "industry": "technology",
-    "income_range": "$100k-$150k",
+    "occupation": "store manager",
+    "industry": "retail",
+    "income_range": "$25k-$50k",
     "location": {
-      "city": "Dallas",
+      "city": "San Antonio",
       "state": "TX",
       "country": "US",
       "region": "southwest"
@@ -23,40 +23,25 @@
   },
   "interviews": [
     {
-      "interview_id": "IV_029_20240428",
-      "date": "2024-04-28",
-      "start_time": "2024-04-28T09:30:00Z",
-      "end_time": "2024-04-28T13:50:00Z",
-      "duration_minutes": 36,
-      "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_18",
-      "location": "in_person",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.9361189537097709,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_029_20240428.json",
-      "compensation_amount": 25
-    },
-    {
-      "interview_id": "IV_029_20240229",
-      "date": "2024-02-29",
-      "start_time": "2024-02-29T09:00:00Z",
-      "end_time": "2024-02-29T11:32:00Z",
-      "duration_minutes": 65,
-      "interview_type": "user_experience",
-      "interviewer_id": "STAFF_10",
+      "interview_id": "IV_029_20241119",
+      "date": "2024-11-19",
+      "start_time": "2024-11-19T13:30:00Z",
+      "end_time": "2024-11-19T17:48:00Z",
+      "duration_minutes": 32,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_15",
       "location": "remote",
-      "recording_quality": "fair",
-      "transcript_confidence_score": 0.8438311085159433,
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8601767552036413,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_029_20240229.json",
+      "transcript_file": "transcript_IV_029_20241119.json",
       "compensation_amount": 75
     }
   ],
   "study_participation": {
-    "recruitment_channel": "email_campaign",
-    "total_interviews_completed": 2,
-    "total_compensation": 100,
-    "hourly_compensation_rate": 59.41
+    "recruitment_channel": "referral",
+    "total_interviews_completed": 1,
+    "total_compensation": 75,
+    "hourly_compensation_rate": 140.62
   }
 }

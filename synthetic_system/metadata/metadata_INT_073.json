@@ -1,62 +1,76 @@
 {
   "interviewee_id": "INT_073",
   "personal_info": {
-    "name": "Jamie",
-    "age": 37,
-    "age_range": "35-39",
-    "gender": "non_binary",
+    "name": "Aaron",
+    "age": 47,
+    "age_range": "45-49",
+    "gender": "male",
     "race_ethnicity": [
-      "white",
       "asian"
     ],
-    "education_level": "master's degree",
-    "employment_status": "self_employed",
-    "occupation": "software engineer",
-    "industry": "technology",
-    "income_range": "$0-$25k",
+    "education_level": "some_college",
+    "employment_status": "part_time",
+    "occupation": "doctor",
+    "industry": "healthcare",
+    "income_range": "$25k-$50k",
     "location": {
-      "city": "San Diego",
-      "state": "CA",
+      "city": "Indianapolis",
+      "state": "IN",
       "country": "US",
-      "region": "west"
+      "region": "midwest"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_073_20240314",
-      "date": "2024-03-14",
-      "start_time": "2024-03-14T16:30:00Z",
-      "end_time": "2024-03-14T10:17:00Z",
-      "duration_minutes": 39,
-      "interview_type": "follow_up",
+      "interview_id": "IV_073_20240626",
+      "date": "2024-06-26",
+      "start_time": "2024-06-26T12:30:00Z",
+      "end_time": "2024-06-26T10:30:00Z",
+      "duration_minutes": 89,
+      "interview_type": "product_feedback",
       "interviewer_id": "STAFF_08",
       "location": "in_person",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.88249887598069,
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8036167467315624,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_073_20240314.json",
-      "compensation_amount": 50
+      "transcript_file": "transcript_IV_073_20240626.json",
+      "compensation_amount": 25
     },
     {
-      "interview_id": "IV_073_20241207",
-      "date": "2024-12-07",
-      "start_time": "2024-12-07T11:30:00Z",
-      "end_time": "2024-12-07T11:33:00Z",
-      "duration_minutes": 58,
-      "interview_type": "follow_up",
+      "interview_id": "IV_073_20240412",
+      "date": "2024-04-12",
+      "start_time": "2024-04-12T17:45:00Z",
+      "end_time": "2024-04-12T11:32:00Z",
+      "duration_minutes": 49,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_07",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8620309258216956,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_073_20240412.json",
+      "compensation_amount": 25
+    },
+    {
+      "interview_id": "IV_073_20240827",
+      "date": "2024-08-27",
+      "start_time": "2024-08-27T14:00:00Z",
+      "end_time": "2024-08-27T15:47:00Z",
+      "duration_minutes": 86,
+      "interview_type": "initial_screening",
       "interviewer_id": "STAFF_14",
       "location": "in_person",
-      "recording_quality": "good",
-      "transcript_confidence_score": 0.8151276542709909,
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8316575401220145,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_073_20241207.json",
-      "compensation_amount": 100
+      "transcript_file": "transcript_IV_073_20240827.json",
+      "compensation_amount": 25
     }
   ],
   "study_participation": {
-    "recruitment_channel": "referral",
-    "total_interviews_completed": 2,
-    "total_compensation": 150,
-    "hourly_compensation_rate": 92.78
+    "recruitment_channel": "email_campaign",
+    "total_interviews_completed": 3,
+    "total_compensation": 75,
+    "hourly_compensation_rate": 20.09
   }
 }

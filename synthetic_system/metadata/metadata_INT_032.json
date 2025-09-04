@@ -1,62 +1,61 @@
 {
   "interviewee_id": "INT_032",
   "personal_info": {
-    "name": "Story",
-    "age": 57,
-    "age_range": "55-59",
+    "name": "Alex",
+    "age": 26,
+    "age_range": "25-29",
     "gender": "non_binary",
     "race_ethnicity": [
-      "white",
       "hispanic"
     ],
-    "education_level": "master's degree",
-    "employment_status": "retired",
-    "occupation": "retired",
-    "industry": "none",
-    "income_range": "$150k+",
+    "education_level": "doctorate",
+    "employment_status": "part_time",
+    "occupation": "writer",
+    "industry": "other",
+    "income_range": "$50k-$75k",
     "location": {
-      "city": "San Diego",
-      "state": "CA",
+      "city": "Seattle",
+      "state": "WA",
       "country": "US",
       "region": "west"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_032_20240412",
-      "date": "2024-04-12",
-      "start_time": "2024-04-12T12:15:00Z",
-      "end_time": "2024-04-12T11:16:00Z",
-      "duration_minutes": 76,
-      "interview_type": "product_feedback",
-      "interviewer_id": "STAFF_02",
+      "interview_id": "IV_032_20241019",
+      "date": "2024-10-19",
+      "start_time": "2024-10-19T14:00:00Z",
+      "end_time": "2024-10-19T16:49:00Z",
+      "duration_minutes": 48,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_06",
       "location": "remote",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.902376256323991,
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.838181745127415,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_032_20240412.json",
+      "transcript_file": "transcript_IV_032_20241019.json",
       "compensation_amount": 75
     },
     {
-      "interview_id": "IV_032_20240625",
-      "date": "2024-06-25",
-      "start_time": "2024-06-25T09:00:00Z",
-      "end_time": "2024-06-25T10:15:00Z",
-      "duration_minutes": 39,
-      "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_20",
+      "interview_id": "IV_032_20240406",
+      "date": "2024-04-06",
+      "start_time": "2024-04-06T11:00:00Z",
+      "end_time": "2024-04-06T16:46:00Z",
+      "duration_minutes": 90,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_09",
       "location": "in_person",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.8621162588456021,
+      "transcript_confidence_score": 0.9392764361342032,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_032_20240625.json",
-      "compensation_amount": 50
+      "transcript_file": "transcript_IV_032_20240406.json",
+      "compensation_amount": 100
     }
   ],
   "study_participation": {
-    "recruitment_channel": "referral",
+    "recruitment_channel": "email_campaign",
     "total_interviews_completed": 2,
-    "total_compensation": 125,
-    "hourly_compensation_rate": 65.22
+    "total_compensation": 175,
+    "hourly_compensation_rate": 76.09
   }
 }

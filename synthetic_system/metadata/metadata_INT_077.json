@@ -1,19 +1,18 @@
 {
   "interviewee_id": "INT_077",
   "personal_info": {
-    "name": "Matthew",
-    "age": 37,
-    "age_range": "35-39",
-    "gender": "male",
+    "name": "Angela",
+    "age": 30,
+    "age_range": "30-34",
+    "gender": "female",
     "race_ethnicity": [
-      "white",
-      "hispanic"
+      "white"
     ],
-    "education_level": "doctorate",
-    "employment_status": "full_time",
-    "occupation": "writer",
-    "industry": "other",
-    "income_range": "$100k-$150k",
+    "education_level": "bachelor's degree",
+    "employment_status": "retired",
+    "occupation": "retired",
+    "industry": "none",
+    "income_range": "$0-$25k",
     "location": {
       "city": "San Diego",
       "state": "CA",
@@ -23,40 +22,70 @@
   },
   "interviews": [
     {
-      "interview_id": "IV_077_20240203",
-      "date": "2024-02-03",
-      "start_time": "2024-02-03T17:45:00Z",
-      "end_time": "2024-02-03T13:23:00Z",
-      "duration_minutes": 36,
-      "interview_type": "follow_up",
-      "interviewer_id": "STAFF_16",
+      "interview_id": "IV_077_20240522",
+      "date": "2024-05-22",
+      "start_time": "2024-05-22T14:15:00Z",
+      "end_time": "2024-05-22T10:51:00Z",
+      "duration_minutes": 73,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_09",
       "location": "in_person",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.8185476207538878,
+      "transcript_confidence_score": 0.9086657906834738,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_077_20240203.json",
+      "transcript_file": "transcript_IV_077_20240522.json",
       "compensation_amount": 25
     },
     {
-      "interview_id": "IV_077_20240407",
-      "date": "2024-04-07",
-      "start_time": "2024-04-07T09:45:00Z",
-      "end_time": "2024-04-07T15:28:00Z",
-      "duration_minutes": 34,
+      "interview_id": "IV_077_20240322",
+      "date": "2024-03-22",
+      "start_time": "2024-03-22T17:30:00Z",
+      "end_time": "2024-03-22T16:53:00Z",
+      "duration_minutes": 49,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_04",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8559567839629583,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_077_20240322.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_077_20240508",
+      "date": "2024-05-08",
+      "start_time": "2024-05-08T13:45:00Z",
+      "end_time": "2024-05-08T13:01:00Z",
+      "duration_minutes": 74,
       "interview_type": "follow_up",
-      "interviewer_id": "STAFF_09",
+      "interviewer_id": "STAFF_12",
       "location": "remote",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.7643275890372153,
+      "transcript_confidence_score": 0.7893729635322753,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_077_20240407.json",
-      "compensation_amount": 25
+      "transcript_file": "transcript_IV_077_20240508.json",
+      "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_077_20240420",
+      "date": "2024-04-20",
+      "start_time": "2024-04-20T13:30:00Z",
+      "end_time": "2024-04-20T12:25:00Z",
+      "duration_minutes": 86,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_01",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.7825975901460364,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_077_20240420.json",
+      "compensation_amount": 50
     }
   ],
   "study_participation": {
     "recruitment_channel": "email_campaign",
-    "total_interviews_completed": 2,
-    "total_compensation": 50,
-    "hourly_compensation_rate": 42.86
+    "total_interviews_completed": 4,
+    "total_compensation": 250,
+    "hourly_compensation_rate": 53.19
   }
 }

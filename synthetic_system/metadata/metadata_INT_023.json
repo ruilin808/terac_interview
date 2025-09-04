@@ -1,77 +1,76 @@
 {
   "interviewee_id": "INT_023",
   "personal_info": {
-    "name": "West",
-    "age": 51,
-    "age_range": "50-54",
-    "gender": "non_binary",
+    "name": "Evelyn",
+    "age": 60,
+    "age_range": "60-64",
+    "gender": "female",
     "race_ethnicity": [
-      "white",
-      "asian"
+      "hispanic"
     ],
     "education_level": "master's degree",
-    "employment_status": "unemployed",
-    "occupation": "unemployed",
-    "industry": "none",
-    "income_range": "$150k+",
+    "employment_status": "part_time",
+    "occupation": "data scientist",
+    "industry": "technology",
+    "income_range": "$0-$25k",
     "location": {
-      "city": "Los Angeles",
-      "state": "CA",
+      "city": "Fort Worth",
+      "state": "TX",
       "country": "US",
-      "region": "west"
+      "region": "southwest"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_023_20240530",
-      "date": "2024-05-30",
-      "start_time": "2024-05-30T09:00:00Z",
-      "end_time": "2024-05-30T14:19:00Z",
-      "duration_minutes": 37,
-      "interview_type": "user_experience",
-      "interviewer_id": "STAFF_15",
-      "location": "remote",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.860846180453051,
+      "interview_id": "IV_023_20240706",
+      "date": "2024-07-06",
+      "start_time": "2024-07-06T14:15:00Z",
+      "end_time": "2024-07-06T18:28:00Z",
+      "duration_minutes": 50,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_03",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.9223953395100414,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_023_20240530.json",
+      "transcript_file": "transcript_IV_023_20240706.json",
       "compensation_amount": 50
     },
     {
-      "interview_id": "IV_023_20240330",
-      "date": "2024-03-30",
-      "start_time": "2024-03-30T09:15:00Z",
-      "end_time": "2024-03-30T17:00:00Z",
-      "duration_minutes": 70,
+      "interview_id": "IV_023_20241217",
+      "date": "2024-12-17",
+      "start_time": "2024-12-17T11:30:00Z",
+      "end_time": "2024-12-17T16:57:00Z",
+      "duration_minutes": 43,
       "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_20",
+      "interviewer_id": "STAFF_01",
       "location": "remote",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.8279744555552117,
+      "transcript_confidence_score": 0.8830327257323889,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_023_20240330.json",
+      "transcript_file": "transcript_IV_023_20241217.json",
       "compensation_amount": 25
     },
     {
-      "interview_id": "IV_023_20240614",
-      "date": "2024-06-14",
-      "start_time": "2024-06-14T11:30:00Z",
-      "end_time": "2024-06-14T10:53:00Z",
-      "duration_minutes": 44,
+      "interview_id": "IV_023_20240205",
+      "date": "2024-02-05",
+      "start_time": "2024-02-05T17:15:00Z",
+      "end_time": "2024-02-05T18:54:00Z",
+      "duration_minutes": 87,
       "interview_type": "user_experience",
-      "interviewer_id": "STAFF_12",
-      "location": "in_person",
-      "recording_quality": "good",
-      "transcript_confidence_score": 0.894761510981552,
+      "interviewer_id": "STAFF_07",
+      "location": "remote",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.9353230498039798,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_023_20240614.json",
-      "compensation_amount": 25
+      "transcript_file": "transcript_IV_023_20240205.json",
+      "compensation_amount": 50
     }
   ],
   "study_participation": {
-    "recruitment_channel": "email_campaign",
+    "recruitment_channel": "website",
     "total_interviews_completed": 3,
-    "total_compensation": 100,
-    "hourly_compensation_rate": 39.74
+    "total_compensation": 125,
+    "hourly_compensation_rate": 41.67
   }
 }

@@ -1,62 +1,46 @@
 {
   "interviewee_id": "INT_081",
   "personal_info": {
-    "name": "Victoria",
-    "age": 36,
-    "age_range": "35-39",
-    "gender": "female",
+    "name": "Lane",
+    "age": 49,
+    "age_range": "45-49",
+    "gender": "non_binary",
     "race_ethnicity": [
-      "white",
       "hispanic"
     ],
-    "education_level": "bachelor's degree",
-    "employment_status": "part_time",
-    "occupation": "therapist",
-    "industry": "healthcare",
-    "income_range": "$0-$25k",
+    "education_level": "high_school",
+    "employment_status": "retired",
+    "occupation": "retired",
+    "industry": "none",
+    "income_range": "$25k-$50k",
     "location": {
-      "city": "Fort Worth",
-      "state": "TX",
+      "city": "New York",
+      "state": "NY",
       "country": "US",
-      "region": "southwest"
+      "region": "northeast"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_081_20241211",
-      "date": "2024-12-11",
-      "start_time": "2024-12-11T09:15:00Z",
-      "end_time": "2024-12-11T15:36:00Z",
-      "duration_minutes": 80,
+      "interview_id": "IV_081_20240521",
+      "date": "2024-05-21",
+      "start_time": "2024-05-21T15:15:00Z",
+      "end_time": "2024-05-21T13:14:00Z",
+      "duration_minutes": 32,
       "interview_type": "user_experience",
-      "interviewer_id": "STAFF_11",
-      "location": "in_person",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.9523697582210511,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_081_20241211.json",
-      "compensation_amount": 75
-    },
-    {
-      "interview_id": "IV_081_20240222",
-      "date": "2024-02-22",
-      "start_time": "2024-02-22T14:30:00Z",
-      "end_time": "2024-02-22T13:58:00Z",
-      "duration_minutes": 47,
-      "interview_type": "follow_up",
       "interviewer_id": "STAFF_15",
-      "location": "in_person",
-      "recording_quality": "good",
-      "transcript_confidence_score": 0.8971377600877063,
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7926135811819106,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_081_20240222.json",
-      "compensation_amount": 100
+      "transcript_file": "transcript_IV_081_20240521.json",
+      "compensation_amount": 25
     }
   ],
   "study_participation": {
-    "recruitment_channel": "website",
-    "total_interviews_completed": 2,
-    "total_compensation": 175,
-    "hourly_compensation_rate": 82.68
+    "recruitment_channel": "email_campaign",
+    "total_interviews_completed": 1,
+    "total_compensation": 25,
+    "hourly_compensation_rate": 46.88
   }
 }

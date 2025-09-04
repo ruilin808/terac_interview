@@ -1,91 +1,61 @@
 {
   "interviewee_id": "INT_024",
   "personal_info": {
-    "name": "Dennis",
-    "age": 22,
-    "age_range": "18-24",
-    "gender": "male",
+    "name": "Lisa",
+    "age": 48,
+    "age_range": "45-49",
+    "gender": "female",
     "race_ethnicity": [
-      "white"
+      "asian"
     ],
-    "education_level": "doctorate",
-    "employment_status": "self_employed",
-    "occupation": "construction worker",
-    "industry": "other",
-    "income_range": "$100k-$150k",
+    "education_level": "bachelor's degree",
+    "employment_status": "retired",
+    "occupation": "retired",
+    "industry": "none",
+    "income_range": "$50k-$75k",
     "location": {
-      "city": "Austin",
-      "state": "TX",
+      "city": "Jacksonville",
+      "state": "FL",
       "country": "US",
-      "region": "southwest"
+      "region": "southeast"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_024_20240612",
-      "date": "2024-06-12",
-      "start_time": "2024-06-12T16:30:00Z",
-      "end_time": "2024-06-12T11:22:00Z",
+      "interview_id": "IV_024_20240929",
+      "date": "2024-09-29",
+      "start_time": "2024-09-29T14:00:00Z",
+      "end_time": "2024-09-29T18:57:00Z",
       "duration_minutes": 57,
-      "interview_type": "product_feedback",
-      "interviewer_id": "STAFF_03",
-      "location": "in_person",
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_01",
+      "location": "remote",
       "recording_quality": "good",
-      "transcript_confidence_score": 0.7823396509330753,
+      "transcript_confidence_score": 0.8962035566489351,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_024_20240612.json",
-      "compensation_amount": 25
+      "transcript_file": "transcript_IV_024_20240929.json",
+      "compensation_amount": 50
     },
     {
-      "interview_id": "IV_024_20240701",
-      "date": "2024-07-01",
-      "start_time": "2024-07-01T12:15:00Z",
-      "end_time": "2024-07-01T15:18:00Z",
-      "duration_minutes": 33,
+      "interview_id": "IV_024_20241118",
+      "date": "2024-11-18",
+      "start_time": "2024-11-18T09:00:00Z",
+      "end_time": "2024-11-18T12:55:00Z",
+      "duration_minutes": 86,
       "interview_type": "user_experience",
-      "interviewer_id": "STAFF_11",
-      "location": "remote",
-      "recording_quality": "fair",
-      "transcript_confidence_score": 0.9157864883139992,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_024_20240701.json",
-      "compensation_amount": 75
-    },
-    {
-      "interview_id": "IV_024_20241108",
-      "date": "2024-11-08",
-      "start_time": "2024-11-08T10:30:00Z",
-      "end_time": "2024-11-08T19:06:00Z",
-      "duration_minutes": 46,
-      "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_19",
-      "location": "remote",
-      "recording_quality": "good",
-      "transcript_confidence_score": 0.821707065900046,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_024_20241108.json",
-      "compensation_amount": 25
-    },
-    {
-      "interview_id": "IV_024_20240107",
-      "date": "2024-01-07",
-      "start_time": "2024-01-07T14:30:00Z",
-      "end_time": "2024-01-07T11:22:00Z",
-      "duration_minutes": 82,
-      "interview_type": "product_feedback",
-      "interviewer_id": "STAFF_03",
+      "interviewer_id": "STAFF_12",
       "location": "in_person",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.8158543357137932,
+      "transcript_confidence_score": 0.9054035295430011,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_024_20240107.json",
-      "compensation_amount": 75
+      "transcript_file": "transcript_IV_024_20241118.json",
+      "compensation_amount": 50
     }
   ],
   "study_participation": {
     "recruitment_channel": "social_media",
-    "total_interviews_completed": 4,
-    "total_compensation": 200,
-    "hourly_compensation_rate": 55.05
+    "total_interviews_completed": 2,
+    "total_compensation": 100,
+    "hourly_compensation_rate": 41.96
   }
 }

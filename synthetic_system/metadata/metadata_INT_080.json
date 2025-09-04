@@ -1,76 +1,47 @@
 {
   "interviewee_id": "INT_080",
   "personal_info": {
-    "name": "Adam",
-    "age": 48,
-    "age_range": "45-49",
-    "gender": "male",
+    "name": "Laura",
+    "age": 26,
+    "age_range": "25-29",
+    "gender": "female",
     "race_ethnicity": [
-      "white"
+      "white",
+      "black"
     ],
-    "education_level": "high_school",
-    "employment_status": "part_time",
-    "occupation": "data scientist",
-    "industry": "technology",
-    "income_range": "$100k-$150k",
+    "education_level": "some_college",
+    "employment_status": "student",
+    "occupation": "student",
+    "industry": "none",
+    "income_range": "$50k-$75k",
     "location": {
-      "city": "Columbus",
-      "state": "OH",
+      "city": "Charlotte",
+      "state": "NC",
       "country": "US",
-      "region": "midwest"
+      "region": "southeast"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_080_20241211",
-      "date": "2024-12-11",
-      "start_time": "2024-12-11T10:30:00Z",
-      "end_time": "2024-12-11T18:17:00Z",
-      "duration_minutes": 60,
+      "interview_id": "IV_080_20240417",
+      "date": "2024-04-17",
+      "start_time": "2024-04-17T10:15:00Z",
+      "end_time": "2024-04-17T12:29:00Z",
+      "duration_minutes": 65,
       "interview_type": "user_experience",
-      "interviewer_id": "STAFF_06",
-      "location": "remote",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.7688825035411406,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_080_20241211.json",
-      "compensation_amount": 25
-    },
-    {
-      "interview_id": "IV_080_20241014",
-      "date": "2024-10-14",
-      "start_time": "2024-10-14T14:30:00Z",
-      "end_time": "2024-10-14T11:41:00Z",
-      "duration_minutes": 76,
-      "interview_type": "user_experience",
-      "interviewer_id": "STAFF_16",
+      "interviewer_id": "STAFF_19",
       "location": "in_person",
       "recording_quality": "fair",
-      "transcript_confidence_score": 0.9708990784580953,
+      "transcript_confidence_score": 0.9635921515304862,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_080_20241014.json",
+      "transcript_file": "transcript_IV_080_20240417.json",
       "compensation_amount": 25
-    },
-    {
-      "interview_id": "IV_080_20240223",
-      "date": "2024-02-23",
-      "start_time": "2024-02-23T12:30:00Z",
-      "end_time": "2024-02-23T14:20:00Z",
-      "duration_minutes": 63,
-      "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_15",
-      "location": "remote",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.8323007194002923,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_080_20240223.json",
-      "compensation_amount": 100
     }
   ],
   "study_participation": {
-    "recruitment_channel": "referral",
-    "total_interviews_completed": 3,
-    "total_compensation": 150,
-    "hourly_compensation_rate": 45.23
+    "recruitment_channel": "website",
+    "total_interviews_completed": 1,
+    "total_compensation": 25,
+    "hourly_compensation_rate": 23.08
   }
 }

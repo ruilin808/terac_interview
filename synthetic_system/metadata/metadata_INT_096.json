@@ -1,91 +1,91 @@
 {
   "interviewee_id": "INT_096",
   "personal_info": {
-    "name": "Benjamin",
-    "age": 18,
-    "age_range": "18-24",
+    "name": "Eric",
+    "age": 32,
+    "age_range": "30-34",
     "gender": "male",
     "race_ethnicity": [
-      "hispanic"
+      "black"
     ],
     "education_level": "high_school",
-    "employment_status": "retired",
-    "occupation": "retired",
-    "industry": "none",
+    "employment_status": "part_time",
+    "occupation": "cashier",
+    "industry": "retail",
     "income_range": "$100k-$150k",
     "location": {
-      "city": "San Antonio",
-      "state": "TX",
+      "city": "San Jose",
+      "state": "CA",
       "country": "US",
-      "region": "southwest"
+      "region": "west"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_096_20240608",
-      "date": "2024-06-08",
-      "start_time": "2024-06-08T11:45:00Z",
-      "end_time": "2024-06-08T18:16:00Z",
-      "duration_minutes": 52,
-      "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_17",
-      "location": "in_person",
-      "recording_quality": "fair",
-      "transcript_confidence_score": 0.9310691163291747,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_096_20240608.json",
-      "compensation_amount": 75
-    },
-    {
-      "interview_id": "IV_096_20240617",
-      "date": "2024-06-17",
-      "start_time": "2024-06-17T17:45:00Z",
-      "end_time": "2024-06-17T16:26:00Z",
-      "duration_minutes": 73,
-      "interview_type": "follow_up",
-      "interviewer_id": "STAFF_02",
-      "location": "remote",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.7679837640875049,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_096_20240617.json",
-      "compensation_amount": 100
-    },
-    {
-      "interview_id": "IV_096_20240822",
-      "date": "2024-08-22",
-      "start_time": "2024-08-22T10:00:00Z",
-      "end_time": "2024-08-22T15:55:00Z",
-      "duration_minutes": 53,
-      "interview_type": "product_feedback",
-      "interviewer_id": "STAFF_06",
-      "location": "remote",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.8754925696182477,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_096_20240822.json",
-      "compensation_amount": 25
-    },
-    {
       "interview_id": "IV_096_20241128",
       "date": "2024-11-28",
-      "start_time": "2024-11-28T16:15:00Z",
-      "end_time": "2024-11-28T09:50:00Z",
-      "duration_minutes": 80,
+      "start_time": "2024-11-28T17:30:00Z",
+      "end_time": "2024-11-28T14:45:00Z",
+      "duration_minutes": 82,
       "interview_type": "follow_up",
-      "interviewer_id": "STAFF_17",
+      "interviewer_id": "STAFF_13",
       "location": "remote",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.8010895755264167,
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.9137931626570469,
       "completion_status": "completed",
       "transcript_file": "transcript_IV_096_20241128.json",
       "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_096_20240525",
+      "date": "2024-05-25",
+      "start_time": "2024-05-25T13:00:00Z",
+      "end_time": "2024-05-25T12:56:00Z",
+      "duration_minutes": 78,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_07",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8020162380567584,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_096_20240525.json",
+      "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_096_20241227",
+      "date": "2024-12-27",
+      "start_time": "2024-12-27T09:15:00Z",
+      "end_time": "2024-12-27T17:04:00Z",
+      "duration_minutes": 74,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_16",
+      "location": "remote",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8153953929960296,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_096_20241227.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_096_20240325",
+      "date": "2024-03-25",
+      "start_time": "2024-03-25T16:00:00Z",
+      "end_time": "2024-03-25T12:26:00Z",
+      "duration_minutes": 49,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_19",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8419603596053471,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_096_20240325.json",
+      "compensation_amount": 25
     }
   ],
   "study_participation": {
-    "recruitment_channel": "website",
+    "recruitment_channel": "social_media",
     "total_interviews_completed": 4,
-    "total_compensation": 275,
-    "hourly_compensation_rate": 63.95
+    "total_compensation": 225,
+    "hourly_compensation_rate": 47.7
   }
 }

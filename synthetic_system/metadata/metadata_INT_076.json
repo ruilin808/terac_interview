@@ -1,61 +1,77 @@
 {
   "interviewee_id": "INT_076",
   "personal_info": {
-    "name": "Dorothy",
-    "age": 28,
-    "age_range": "25-29",
-    "gender": "female",
+    "name": "Winter",
+    "age": 39,
+    "age_range": "35-39",
+    "gender": "non_binary",
     "race_ethnicity": [
-      "mixed"
+      "black",
+      "white"
     ],
-    "education_level": "some_college",
+    "education_level": "doctorate",
     "employment_status": "self_employed",
-    "occupation": "pharmacist",
-    "industry": "healthcare",
-    "income_range": "$25k-$50k",
+    "occupation": "cashier",
+    "industry": "retail",
+    "income_range": "$50k-$75k",
     "location": {
-      "city": "San Jose",
-      "state": "CA",
+      "city": "Denver",
+      "state": "CO",
       "country": "US",
       "region": "west"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_076_20240101",
-      "date": "2024-01-01",
-      "start_time": "2024-01-01T11:45:00Z",
-      "end_time": "2024-01-01T10:18:00Z",
-      "duration_minutes": 51,
-      "interview_type": "follow_up",
-      "interviewer_id": "STAFF_19",
-      "location": "remote",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.8287505467776546,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_076_20240101.json",
-      "compensation_amount": 25
-    },
-    {
-      "interview_id": "IV_076_20241217",
-      "date": "2024-12-17",
-      "start_time": "2024-12-17T15:00:00Z",
-      "end_time": "2024-12-17T18:46:00Z",
-      "duration_minutes": 54,
-      "interview_type": "user_experience",
-      "interviewer_id": "STAFF_05",
+      "interview_id": "IV_076_20240825",
+      "date": "2024-08-25",
+      "start_time": "2024-08-25T16:30:00Z",
+      "end_time": "2024-08-25T12:10:00Z",
+      "duration_minutes": 87,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_18",
       "location": "in_person",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.7538868213686062,
+      "transcript_confidence_score": 0.7664400467830863,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_076_20241217.json",
+      "transcript_file": "transcript_IV_076_20240825.json",
       "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_076_20240227",
+      "date": "2024-02-27",
+      "start_time": "2024-02-27T10:00:00Z",
+      "end_time": "2024-02-27T12:04:00Z",
+      "duration_minutes": 65,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_17",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.9316332066937123,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_076_20240227.json",
+      "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_076_20240908",
+      "date": "2024-09-08",
+      "start_time": "2024-09-08T12:45:00Z",
+      "end_time": "2024-09-08T10:55:00Z",
+      "duration_minutes": 68,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_10",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.7537610651693898,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_076_20240908.json",
+      "compensation_amount": 25
     }
   ],
   "study_participation": {
-    "recruitment_channel": "referral",
-    "total_interviews_completed": 2,
-    "total_compensation": 125,
-    "hourly_compensation_rate": 71.43
+    "recruitment_channel": "email_campaign",
+    "total_interviews_completed": 3,
+    "total_compensation": 200,
+    "hourly_compensation_rate": 54.55
   }
 }

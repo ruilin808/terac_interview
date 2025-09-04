@@ -1,47 +1,91 @@
 {
   "interviewee_id": "INT_099",
   "personal_info": {
-    "name": "Joseph",
-    "age": 68,
-    "age_range": "65+",
+    "name": "Alan",
+    "age": 36,
+    "age_range": "35-39",
     "gender": "male",
     "race_ethnicity": [
-      "hispanic",
-      "mixed"
+      "black"
     ],
     "education_level": "some_college",
     "employment_status": "retired",
     "occupation": "retired",
     "industry": "none",
-    "income_range": "$50k-$75k",
+    "income_range": "$25k-$50k",
     "location": {
-      "city": "San Francisco",
-      "state": "CA",
+      "city": "Chicago",
+      "state": "IL",
       "country": "US",
-      "region": "west"
+      "region": "midwest"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_099_20240602",
-      "date": "2024-06-02",
-      "start_time": "2024-06-02T15:15:00Z",
-      "end_time": "2024-06-02T16:45:00Z",
-      "duration_minutes": 35,
+      "interview_id": "IV_099_20240703",
+      "date": "2024-07-03",
+      "start_time": "2024-07-03T11:45:00Z",
+      "end_time": "2024-07-03T18:41:00Z",
+      "duration_minutes": 68,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_06",
+      "location": "remote",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8571334344082019,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_099_20240703.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_099_20240816",
+      "date": "2024-08-16",
+      "start_time": "2024-08-16T13:30:00Z",
+      "end_time": "2024-08-16T13:27:00Z",
+      "duration_minutes": 57,
       "interview_type": "user_experience",
-      "interviewer_id": "STAFF_12",
+      "interviewer_id": "STAFF_08",
       "location": "in_person",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.919373971976749,
+      "transcript_confidence_score": 0.9667608241154815,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_099_20240602.json",
-      "compensation_amount": 100
+      "transcript_file": "transcript_IV_099_20240816.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_099_20240714",
+      "date": "2024-07-14",
+      "start_time": "2024-07-14T13:30:00Z",
+      "end_time": "2024-07-14T12:21:00Z",
+      "duration_minutes": 43,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_19",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.9574278297772935,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_099_20240714.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_099_20240430",
+      "date": "2024-04-30",
+      "start_time": "2024-04-30T10:45:00Z",
+      "end_time": "2024-04-30T11:18:00Z",
+      "duration_minutes": 37,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_16",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.9151729455914591,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_099_20240430.json",
+      "compensation_amount": 50
     }
   ],
   "study_participation": {
     "recruitment_channel": "website",
-    "total_interviews_completed": 1,
-    "total_compensation": 100,
-    "hourly_compensation_rate": 171.43
+    "total_interviews_completed": 4,
+    "total_compensation": 200,
+    "hourly_compensation_rate": 58.54
   }
 }

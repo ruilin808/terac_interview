@@ -1,61 +1,61 @@
 {
   "interviewee_id": "INT_055",
   "personal_info": {
-    "name": "Noah",
-    "age": 21,
-    "age_range": "18-24",
-    "gender": "male",
+    "name": "Wren",
+    "age": 55,
+    "age_range": "55-59",
+    "gender": "non_binary",
     "race_ethnicity": [
-      "white"
+      "hispanic"
     ],
-    "education_level": "some_college",
-    "employment_status": "part_time",
-    "occupation": "sales associate",
-    "industry": "retail",
-    "income_range": "$75k-$100k",
+    "education_level": "bachelor's degree",
+    "employment_status": "student",
+    "occupation": "student",
+    "industry": "none",
+    "income_range": "$25k-$50k",
     "location": {
-      "city": "Houston",
-      "state": "TX",
+      "city": "San Francisco",
+      "state": "CA",
       "country": "US",
-      "region": "southwest"
+      "region": "west"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_055_20240510",
-      "date": "2024-05-10",
-      "start_time": "2024-05-10T13:00:00Z",
-      "end_time": "2024-05-10T14:44:00Z",
-      "duration_minutes": 66,
-      "interview_type": "product_feedback",
-      "interviewer_id": "STAFF_12",
+      "interview_id": "IV_055_20240815",
+      "date": "2024-08-15",
+      "start_time": "2024-08-15T16:00:00Z",
+      "end_time": "2024-08-15T15:07:00Z",
+      "duration_minutes": 47,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_01",
       "location": "remote",
       "recording_quality": "good",
-      "transcript_confidence_score": 0.8041568371540303,
+      "transcript_confidence_score": 0.7568872111566548,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_055_20240510.json",
+      "transcript_file": "transcript_IV_055_20240815.json",
       "compensation_amount": 75
     },
     {
-      "interview_id": "IV_055_20240510",
-      "date": "2024-05-10",
-      "start_time": "2024-05-10T11:00:00Z",
-      "end_time": "2024-05-10T15:33:00Z",
-      "duration_minutes": 83,
-      "interview_type": "product_feedback",
-      "interviewer_id": "STAFF_10",
+      "interview_id": "IV_055_20240920",
+      "date": "2024-09-20",
+      "start_time": "2024-09-20T14:15:00Z",
+      "end_time": "2024-09-20T12:52:00Z",
+      "duration_minutes": 51,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_17",
       "location": "in_person",
-      "recording_quality": "fair",
-      "transcript_confidence_score": 0.8364951266756461,
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8140381106439156,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_055_20240510.json",
-      "compensation_amount": 100
+      "transcript_file": "transcript_IV_055_20240920.json",
+      "compensation_amount": 50
     }
   ],
   "study_participation": {
-    "recruitment_channel": "website",
+    "recruitment_channel": "social_media",
     "total_interviews_completed": 2,
-    "total_compensation": 175,
-    "hourly_compensation_rate": 70.47
+    "total_compensation": 125,
+    "hourly_compensation_rate": 76.53
   }
 }

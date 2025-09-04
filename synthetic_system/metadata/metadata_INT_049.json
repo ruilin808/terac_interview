@@ -1,91 +1,62 @@
 {
   "interviewee_id": "INT_049",
   "personal_info": {
-    "name": "Parker",
-    "age": 69,
+    "name": "Marlowe",
+    "age": 72,
     "age_range": "65+",
     "gender": "non_binary",
     "race_ethnicity": [
-      "white"
+      "white",
+      "black"
     ],
-    "education_level": "bachelor's degree",
-    "employment_status": "full_time",
-    "occupation": "nurse",
+    "education_level": "doctorate",
+    "employment_status": "self_employed",
+    "occupation": "pharmacist",
     "industry": "healthcare",
-    "income_range": "$25k-$50k",
+    "income_range": "$150k+",
     "location": {
-      "city": "Boston",
-      "state": "MA",
+      "city": "Los Angeles",
+      "state": "CA",
       "country": "US",
-      "region": "northeast"
+      "region": "west"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_049_20240617",
-      "date": "2024-06-17",
-      "start_time": "2024-06-17T09:15:00Z",
-      "end_time": "2024-06-17T16:28:00Z",
-      "duration_minutes": 53,
-      "interview_type": "user_experience",
-      "interviewer_id": "STAFF_03",
-      "location": "remote",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.791991598849733,
+      "interview_id": "IV_049_20240115",
+      "date": "2024-01-15",
+      "start_time": "2024-01-15T17:00:00Z",
+      "end_time": "2024-01-15T13:01:00Z",
+      "duration_minutes": 46,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_06",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8736141892720837,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_049_20240617.json",
+      "transcript_file": "transcript_IV_049_20240115.json",
       "compensation_amount": 25
     },
     {
-      "interview_id": "IV_049_20240528",
-      "date": "2024-05-28",
-      "start_time": "2024-05-28T10:45:00Z",
-      "end_time": "2024-05-28T16:30:00Z",
-      "duration_minutes": 71,
+      "interview_id": "IV_049_20240408",
+      "date": "2024-04-08",
+      "start_time": "2024-04-08T11:00:00Z",
+      "end_time": "2024-04-08T15:51:00Z",
+      "duration_minutes": 87,
       "interview_type": "follow_up",
-      "interviewer_id": "STAFF_01",
+      "interviewer_id": "STAFF_12",
       "location": "in_person",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.979136978712434,
+      "transcript_confidence_score": 0.9138057975595726,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_049_20240528.json",
+      "transcript_file": "transcript_IV_049_20240408.json",
       "compensation_amount": 25
-    },
-    {
-      "interview_id": "IV_049_20240424",
-      "date": "2024-04-24",
-      "start_time": "2024-04-24T12:00:00Z",
-      "end_time": "2024-04-24T17:27:00Z",
-      "duration_minutes": 56,
-      "interview_type": "user_experience",
-      "interviewer_id": "STAFF_11",
-      "location": "in_person",
-      "recording_quality": "good",
-      "transcript_confidence_score": 0.7877241630542695,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_049_20240424.json",
-      "compensation_amount": 50
-    },
-    {
-      "interview_id": "IV_049_20240525",
-      "date": "2024-05-25",
-      "start_time": "2024-05-25T11:45:00Z",
-      "end_time": "2024-05-25T13:50:00Z",
-      "duration_minutes": 52,
-      "interview_type": "follow_up",
-      "interviewer_id": "STAFF_19",
-      "location": "remote",
-      "recording_quality": "good",
-      "transcript_confidence_score": 0.9334155212800666,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_049_20240525.json",
-      "compensation_amount": 75
     }
   ],
   "study_participation": {
-    "recruitment_channel": "social_media",
-    "total_interviews_completed": 4,
-    "total_compensation": 175,
-    "hourly_compensation_rate": 45.26
+    "recruitment_channel": "website",
+    "total_interviews_completed": 2,
+    "total_compensation": 50,
+    "hourly_compensation_rate": 22.56
   }
 }

@@ -1,61 +1,91 @@
 {
   "interviewee_id": "INT_090",
   "personal_info": {
-    "name": "Harper",
-    "age": 66,
-    "age_range": "65+",
+    "name": "Peyton",
+    "age": 23,
+    "age_range": "18-24",
     "gender": "non_binary",
     "race_ethnicity": [
-      "white"
+      "hispanic"
     ],
-    "education_level": "some_college",
-    "employment_status": "retired",
-    "occupation": "retired",
-    "industry": "none",
+    "education_level": "high_school",
+    "employment_status": "part_time",
+    "occupation": "pharmacist",
+    "industry": "healthcare",
     "income_range": "$50k-$75k",
     "location": {
-      "city": "San Jose",
-      "state": "CA",
+      "city": "Charlotte",
+      "state": "NC",
       "country": "US",
-      "region": "west"
+      "region": "southeast"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_090_20240803",
-      "date": "2024-08-03",
-      "start_time": "2024-08-03T16:30:00Z",
-      "end_time": "2024-08-03T17:41:00Z",
-      "duration_minutes": 35,
+      "interview_id": "IV_090_20240915",
+      "date": "2024-09-15",
+      "start_time": "2024-09-15T14:30:00Z",
+      "end_time": "2024-09-15T17:29:00Z",
+      "duration_minutes": 55,
       "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_11",
+      "interviewer_id": "STAFF_16",
       "location": "in_person",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.7952922276581201,
+      "transcript_confidence_score": 0.7513607441207507,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_090_20240803.json",
+      "transcript_file": "transcript_IV_090_20240915.json",
       "compensation_amount": 25
     },
     {
-      "interview_id": "IV_090_20240129",
-      "date": "2024-01-29",
-      "start_time": "2024-01-29T12:30:00Z",
-      "end_time": "2024-01-29T12:28:00Z",
-      "duration_minutes": 61,
-      "interview_type": "follow_up",
-      "interviewer_id": "STAFF_16",
-      "location": "in_person",
-      "recording_quality": "good",
-      "transcript_confidence_score": 0.8713525351106078,
+      "interview_id": "IV_090_20241204",
+      "date": "2024-12-04",
+      "start_time": "2024-12-04T09:00:00Z",
+      "end_time": "2024-12-04T15:39:00Z",
+      "duration_minutes": 48,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_18",
+      "location": "remote",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.7697161518921053,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_090_20240129.json",
+      "transcript_file": "transcript_IV_090_20241204.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_090_20240907",
+      "date": "2024-09-07",
+      "start_time": "2024-09-07T11:45:00Z",
+      "end_time": "2024-09-07T10:24:00Z",
+      "duration_minutes": 39,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_05",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8861912841576713,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_090_20240907.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_090_20240213",
+      "date": "2024-02-13",
+      "start_time": "2024-02-13T10:30:00Z",
+      "end_time": "2024-02-13T18:51:00Z",
+      "duration_minutes": 52,
+      "interview_type": "initial_screening",
+      "interviewer_id": "STAFF_16",
+      "location": "remote",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8792937927630895,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_090_20240213.json",
       "compensation_amount": 100
     }
   ],
   "study_participation": {
-    "recruitment_channel": "email_campaign",
-    "total_interviews_completed": 2,
-    "total_compensation": 125,
-    "hourly_compensation_rate": 78.12
+    "recruitment_channel": "social_media",
+    "total_interviews_completed": 4,
+    "total_compensation": 275,
+    "hourly_compensation_rate": 85.05
   }
 }

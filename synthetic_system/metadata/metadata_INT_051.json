@@ -1,21 +1,20 @@
 {
   "interviewee_id": "INT_051",
   "personal_info": {
-    "name": "Michael",
-    "age": 48,
-    "age_range": "45-49",
-    "gender": "male",
+    "name": "Quinn",
+    "age": 53,
+    "age_range": "50-54",
+    "gender": "non_binary",
     "race_ethnicity": [
-      "native_american",
-      "hispanic"
+      "asian"
     ],
     "education_level": "bachelor's degree",
-    "employment_status": "unemployed",
-    "occupation": "unemployed",
+    "employment_status": "student",
+    "occupation": "student",
     "industry": "none",
     "income_range": "$0-$25k",
     "location": {
-      "city": "Los Angeles",
+      "city": "San Francisco",
       "state": "CA",
       "country": "US",
       "region": "west"
@@ -23,25 +22,25 @@
   },
   "interviews": [
     {
-      "interview_id": "IV_051_20241211",
-      "date": "2024-12-11",
-      "start_time": "2024-12-11T11:15:00Z",
-      "end_time": "2024-12-11T17:19:00Z",
-      "duration_minutes": 45,
-      "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_09",
+      "interview_id": "IV_051_20240512",
+      "date": "2024-05-12",
+      "start_time": "2024-05-12T16:00:00Z",
+      "end_time": "2024-05-12T13:54:00Z",
+      "duration_minutes": 36,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_17",
       "location": "remote",
-      "recording_quality": "fair",
-      "transcript_confidence_score": 0.9480714518594954,
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.9191820656323442,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_051_20241211.json",
-      "compensation_amount": 25
+      "transcript_file": "transcript_IV_051_20240512.json",
+      "compensation_amount": 100
     }
   ],
   "study_participation": {
-    "recruitment_channel": "website",
+    "recruitment_channel": "email_campaign",
     "total_interviews_completed": 1,
-    "total_compensation": 25,
-    "hourly_compensation_rate": 33.33
+    "total_compensation": 100,
+    "hourly_compensation_rate": 166.67
   }
 }

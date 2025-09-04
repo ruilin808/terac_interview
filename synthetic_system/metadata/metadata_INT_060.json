@@ -1,61 +1,76 @@
 {
   "interviewee_id": "INT_060",
   "personal_info": {
-    "name": "Olivia",
-    "age": 22,
-    "age_range": "18-24",
+    "name": "Linda",
+    "age": 54,
+    "age_range": "50-54",
     "gender": "female",
     "race_ethnicity": [
-      "asian"
+      "white"
     ],
-    "education_level": "some_college",
-    "employment_status": "student",
-    "occupation": "student",
-    "industry": "none",
-    "income_range": "$25k-$50k",
+    "education_level": "master's degree",
+    "employment_status": "self_employed",
+    "occupation": "chef",
+    "industry": "other",
+    "income_range": "$75k-$100k",
     "location": {
-      "city": "Indianapolis",
-      "state": "IN",
+      "city": "Chicago",
+      "state": "IL",
       "country": "US",
       "region": "midwest"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_060_20241107",
-      "date": "2024-11-07",
-      "start_time": "2024-11-07T09:30:00Z",
-      "end_time": "2024-11-07T14:19:00Z",
-      "duration_minutes": 75,
-      "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_12",
+      "interview_id": "IV_060_20240627",
+      "date": "2024-06-27",
+      "start_time": "2024-06-27T14:45:00Z",
+      "end_time": "2024-06-27T14:38:00Z",
+      "duration_minutes": 37,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_08",
       "location": "remote",
-      "recording_quality": "good",
-      "transcript_confidence_score": 0.802562301153299,
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.8322931509372113,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_060_20241107.json",
+      "transcript_file": "transcript_IV_060_20240627.json",
       "compensation_amount": 75
     },
     {
-      "interview_id": "IV_060_20240429",
-      "date": "2024-04-29",
-      "start_time": "2024-04-29T13:30:00Z",
-      "end_time": "2024-04-29T16:15:00Z",
-      "duration_minutes": 87,
+      "interview_id": "IV_060_20240519",
+      "date": "2024-05-19",
+      "start_time": "2024-05-19T15:15:00Z",
+      "end_time": "2024-05-19T12:10:00Z",
+      "duration_minutes": 69,
+      "interview_type": "follow_up",
+      "interviewer_id": "STAFF_03",
+      "location": "in_person",
+      "recording_quality": "fair",
+      "transcript_confidence_score": 0.814524201523957,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_060_20240519.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_060_20240104",
+      "date": "2024-01-04",
+      "start_time": "2024-01-04T13:30:00Z",
+      "end_time": "2024-01-04T18:56:00Z",
+      "duration_minutes": 60,
       "interview_type": "initial_screening",
       "interviewer_id": "STAFF_10",
-      "location": "in_person",
+      "location": "remote",
       "recording_quality": "good",
-      "transcript_confidence_score": 0.9757314448619526,
+      "transcript_confidence_score": 0.9281789934001212,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_060_20240429.json",
-      "compensation_amount": 25
+      "transcript_file": "transcript_IV_060_20240104.json",
+      "compensation_amount": 50
     }
   ],
   "study_participation": {
-    "recruitment_channel": "email_campaign",
-    "total_interviews_completed": 2,
-    "total_compensation": 100,
-    "hourly_compensation_rate": 37.04
+    "recruitment_channel": "social_media",
+    "total_interviews_completed": 3,
+    "total_compensation": 225,
+    "hourly_compensation_rate": 81.33
   }
 }

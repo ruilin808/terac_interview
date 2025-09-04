@@ -1,77 +1,61 @@
 {
   "interviewee_id": "INT_043",
   "personal_info": {
-    "name": "Riley",
-    "age": 62,
-    "age_range": "60-64",
+    "name": "Briar",
+    "age": 65,
+    "age_range": "65+",
     "gender": "non_binary",
     "race_ethnicity": [
-      "native_american",
       "white"
     ],
-    "education_level": "some_college",
-    "employment_status": "student",
-    "occupation": "student",
-    "industry": "none",
+    "education_level": "doctorate",
+    "employment_status": "full_time",
+    "occupation": "counselor",
+    "industry": "education",
     "income_range": "$75k-$100k",
     "location": {
-      "city": "Charlotte",
-      "state": "NC",
+      "city": "Chicago",
+      "state": "IL",
       "country": "US",
-      "region": "southeast"
+      "region": "midwest"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_043_20240627",
-      "date": "2024-06-27",
-      "start_time": "2024-06-27T12:30:00Z",
-      "end_time": "2024-06-27T16:24:00Z",
-      "duration_minutes": 44,
-      "interview_type": "initial_screening",
-      "interviewer_id": "STAFF_05",
+      "interview_id": "IV_043_20240902",
+      "date": "2024-09-02",
+      "start_time": "2024-09-02T14:15:00Z",
+      "end_time": "2024-09-02T11:55:00Z",
+      "duration_minutes": 58,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_04",
       "location": "remote",
       "recording_quality": "good",
-      "transcript_confidence_score": 0.9557906302026982,
+      "transcript_confidence_score": 0.7701831471878521,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_043_20240627.json",
-      "compensation_amount": 50
+      "transcript_file": "transcript_IV_043_20240902.json",
+      "compensation_amount": 75
     },
     {
-      "interview_id": "IV_043_20241223",
-      "date": "2024-12-23",
-      "start_time": "2024-12-23T17:15:00Z",
-      "end_time": "2024-12-23T14:19:00Z",
-      "duration_minutes": 67,
+      "interview_id": "IV_043_20241026",
+      "date": "2024-10-26",
+      "start_time": "2024-10-26T16:15:00Z",
+      "end_time": "2024-10-26T13:59:00Z",
+      "duration_minutes": 66,
       "interview_type": "follow_up",
-      "interviewer_id": "STAFF_10",
-      "location": "in_person",
-      "recording_quality": "good",
-      "transcript_confidence_score": 0.9226305696837129,
-      "completion_status": "completed",
-      "transcript_file": "transcript_IV_043_20241223.json",
-      "compensation_amount": 50
-    },
-    {
-      "interview_id": "IV_043_20240702",
-      "date": "2024-07-02",
-      "start_time": "2024-07-02T15:30:00Z",
-      "end_time": "2024-07-02T12:26:00Z",
-      "duration_minutes": 84,
-      "interview_type": "initial_screening",
       "interviewer_id": "STAFF_15",
       "location": "remote",
-      "recording_quality": "excellent",
-      "transcript_confidence_score": 0.9287077200274954,
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.9459812849324518,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_043_20240702.json",
-      "compensation_amount": 75
+      "transcript_file": "transcript_IV_043_20241026.json",
+      "compensation_amount": 100
     }
   ],
   "study_participation": {
     "recruitment_channel": "referral",
-    "total_interviews_completed": 3,
+    "total_interviews_completed": 2,
     "total_compensation": 175,
-    "hourly_compensation_rate": 53.85
+    "hourly_compensation_rate": 84.68
   }
 }

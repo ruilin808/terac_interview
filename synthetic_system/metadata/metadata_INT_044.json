@@ -1,47 +1,76 @@
 {
   "interviewee_id": "INT_044",
   "personal_info": {
-    "name": "Hayden",
-    "age": 21,
-    "age_range": "18-24",
-    "gender": "non_binary",
+    "name": "Donald",
+    "age": 51,
+    "age_range": "50-54",
+    "gender": "male",
     "race_ethnicity": [
-      "white",
-      "mixed"
+      "asian"
     ],
-    "education_level": "some_college",
+    "education_level": "high_school",
     "employment_status": "self_employed",
-    "occupation": "nurse",
-    "industry": "healthcare",
-    "income_range": "$0-$25k",
+    "occupation": "manager",
+    "industry": "business",
+    "income_range": "$100k-$150k",
     "location": {
-      "city": "Phoenix",
-      "state": "AZ",
+      "city": "Philadelphia",
+      "state": "PA",
       "country": "US",
-      "region": "southwest"
+      "region": "northeast"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_044_20240520",
-      "date": "2024-05-20",
-      "start_time": "2024-05-20T15:30:00Z",
-      "end_time": "2024-05-20T16:10:00Z",
-      "duration_minutes": 68,
-      "interview_type": "user_experience",
-      "interviewer_id": "STAFF_02",
+      "interview_id": "IV_044_20240404",
+      "date": "2024-04-04",
+      "start_time": "2024-04-04T16:15:00Z",
+      "end_time": "2024-04-04T12:55:00Z",
+      "duration_minutes": 66,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_15",
       "location": "in_person",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.7656577949242356,
+      "transcript_confidence_score": 0.9620462347105958,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_044_20240520.json",
+      "transcript_file": "transcript_IV_044_20240404.json",
+      "compensation_amount": 100
+    },
+    {
+      "interview_id": "IV_044_20240223",
+      "date": "2024-02-23",
+      "start_time": "2024-02-23T09:00:00Z",
+      "end_time": "2024-02-23T11:07:00Z",
+      "duration_minutes": 59,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_15",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.7620504489212279,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_044_20240223.json",
       "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_044_20240613",
+      "date": "2024-06-13",
+      "start_time": "2024-06-13T12:15:00Z",
+      "end_time": "2024-06-13T17:39:00Z",
+      "duration_minutes": 87,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_13",
+      "location": "in_person",
+      "recording_quality": "excellent",
+      "transcript_confidence_score": 0.8861203260350248,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_044_20240613.json",
+      "compensation_amount": 100
     }
   ],
   "study_participation": {
     "recruitment_channel": "social_media",
-    "total_interviews_completed": 1,
-    "total_compensation": 75,
-    "hourly_compensation_rate": 66.18
+    "total_interviews_completed": 3,
+    "total_compensation": 275,
+    "hourly_compensation_rate": 77.83
   }
 }

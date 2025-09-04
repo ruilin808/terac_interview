@@ -2,61 +2,91 @@
   "interviewee_id": "INT_034",
   "personal_info": {
     "name": "Rachel",
-    "age": 67,
-    "age_range": "65+",
+    "age": 27,
+    "age_range": "25-29",
     "gender": "female",
     "race_ethnicity": [
       "white",
       "black"
     ],
-    "education_level": "bachelor's degree",
+    "education_level": "doctorate",
     "employment_status": "part_time",
-    "occupation": "manager",
-    "industry": "business",
+    "occupation": "sales associate",
+    "industry": "retail",
     "income_range": "$0-$25k",
     "location": {
-      "city": "Austin",
-      "state": "TX",
+      "city": "San Diego",
+      "state": "CA",
       "country": "US",
-      "region": "southwest"
+      "region": "west"
     }
   },
   "interviews": [
     {
-      "interview_id": "IV_034_20240712",
-      "date": "2024-07-12",
-      "start_time": "2024-07-12T10:45:00Z",
-      "end_time": "2024-07-12T16:30:00Z",
-      "duration_minutes": 81,
+      "interview_id": "IV_034_20240708",
+      "date": "2024-07-08",
+      "start_time": "2024-07-08T10:15:00Z",
+      "end_time": "2024-07-08T14:00:00Z",
+      "duration_minutes": 56,
       "interview_type": "follow_up",
-      "interviewer_id": "STAFF_15",
+      "interviewer_id": "STAFF_01",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.7586131093274885,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_034_20240708.json",
+      "compensation_amount": 75
+    },
+    {
+      "interview_id": "IV_034_20241230",
+      "date": "2024-12-30",
+      "start_time": "2024-12-30T13:15:00Z",
+      "end_time": "2024-12-30T15:19:00Z",
+      "duration_minutes": 77,
+      "interview_type": "product_feedback",
+      "interviewer_id": "STAFF_04",
       "location": "in_person",
       "recording_quality": "excellent",
-      "transcript_confidence_score": 0.7748688233029997,
+      "transcript_confidence_score": 0.939216073183923,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_034_20240712.json",
+      "transcript_file": "transcript_IV_034_20241230.json",
       "compensation_amount": 50
     },
     {
-      "interview_id": "IV_034_20240223",
-      "date": "2024-02-23",
-      "start_time": "2024-02-23T15:00:00Z",
-      "end_time": "2024-02-23T10:43:00Z",
-      "duration_minutes": 68,
+      "interview_id": "IV_034_20240801",
+      "date": "2024-08-01",
+      "start_time": "2024-08-01T10:15:00Z",
+      "end_time": "2024-08-01T18:05:00Z",
+      "duration_minutes": 88,
       "interview_type": "user_experience",
-      "interviewer_id": "STAFF_20",
-      "location": "remote",
-      "recording_quality": "fair",
-      "transcript_confidence_score": 0.8654533747855635,
+      "interviewer_id": "STAFF_18",
+      "location": "in_person",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.7827596104542145,
       "completion_status": "completed",
-      "transcript_file": "transcript_IV_034_20240223.json",
-      "compensation_amount": 75
+      "transcript_file": "transcript_IV_034_20240801.json",
+      "compensation_amount": 50
+    },
+    {
+      "interview_id": "IV_034_20240428",
+      "date": "2024-04-28",
+      "start_time": "2024-04-28T10:45:00Z",
+      "end_time": "2024-04-28T11:19:00Z",
+      "duration_minutes": 43,
+      "interview_type": "user_experience",
+      "interviewer_id": "STAFF_04",
+      "location": "remote",
+      "recording_quality": "good",
+      "transcript_confidence_score": 0.8170425630079868,
+      "completion_status": "completed",
+      "transcript_file": "transcript_IV_034_20240428.json",
+      "compensation_amount": 25
     }
   ],
   "study_participation": {
-    "recruitment_channel": "referral",
-    "total_interviews_completed": 2,
-    "total_compensation": 125,
-    "hourly_compensation_rate": 50.34
+    "recruitment_channel": "website",
+    "total_interviews_completed": 4,
+    "total_compensation": 200,
+    "hourly_compensation_rate": 45.45
   }
 }
